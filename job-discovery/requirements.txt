@@ -1,0 +1,12 @@
+# Core HTTP + parsing
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+feedparser>=6.0.0
+lxml>=5.0.0
+
+# Config
+pyyaml>=6.0.0
+
+# Testing
+pytest>=8.0.0
+responses>=0.25.0

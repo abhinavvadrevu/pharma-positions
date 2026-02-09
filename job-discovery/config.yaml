@@ -1,0 +1,228 @@
+# =============================================================================
+# Pharma Job Discovery Pipeline — Configuration
+# =============================================================================
+# Each source has:
+#   name:          Human-readable label
+#   scraper_type:  Which scraper class to use
+#   enabled:       true/false — toggle sources on/off
+#   url:           Base URL for the career site
+#   company:       Company name for the output
+#   keywords:      Search keywords to filter results
+#   params:        Scraper-specific parameters
+# =============================================================================
+
+# Global settings
+output_dir: output
+data_dir: data
+log_level: INFO
+request_delay_seconds: 1.0
+request_timeout_seconds: 30.0
+
+# =============================================================================
+# Candidate Profile & Matching Criteria
+# =============================================================================
+# Used by the matcher module (cheap filters) and the LLM evaluation skill
+# to determine job fit.
+
+candidate_profile: |
+  Multidisciplinary scientist responsible for investigating the stability
+  and physicochemical properties of antibody and ADC formulations to support
+  early-stage clinical development and IND submissions. Expertise in liquid
+  and lyophilized biologic formulation and drug product manufacturing
+  processes supporting technology transfer to internal manufacturing sites
+  and CMOs. Leads cross-functional teams and develops junior scientists in
+  a matrixed structure.
+
+target_titles:
+  - Drug Product Scientist
+  - Formulations Scientist
+  - Formulations Lead
+  - Senior Scientist
+  - Scientist II
+  - Associate Principal Scientist
+  - Principal Scientist
+
+education_guideline: |
+  PhD with roughly 2+ years of industry experience. This is approximate —
+  many postings list flexible requirements (e.g., "PhD with 2+ years or
+  MS with 6+ years") and should still be considered.
+
+key_domain_terms:
+  - drug product
+  - formulation
+  - biologics
+  - antibody
+  - ADC
+  - lyophilization
+  - stability
+  - IND
+  - CMO
+  - technology transfer
+  - drug substance
+  - biopharmaceutical
+  - parenteral
+
+match_criteria:
+  # Discard postings older than this many days
+  max_age_days: 14
+
+  # Include job if title contains ANY of these (case-insensitive)
+  title_include:
+    - formulation
+    - drug product
+    - scientist
+    - principal scientist
+    - CMC
+    - biologics
+    - lyophil
+    - stability
+
+  # Exclude job if title contains ANY of these (case-insensitive)
+  # Checked AFTER include — exclusion overrides inclusion
+  title_exclude:
+    - intern
+    - co-op
+    - entry level
+    - entry-level
+    - associate scientist
+    - director
+    - VP
+    - vice president
+    - manufacturing operator
+    - QC analyst
+    - quality control analyst
+    - technician
+    - tech I
+    - tech II
+
+sources:
+  # ---------------------------------------------------------------------------
+  # 1. AGGREGATORS
+  # ---------------------------------------------------------------------------
+  - name: biospace
+    scraper_type: biospace
+    enabled: true
+    url: https://www.biospace.com/jobs
+    keywords: ["drug product"]
+    params:
+      max_pages: 200  # site has ~177 pages x 20 jobs = ~3,500 total
+
+  # ---------------------------------------------------------------------------
+  # 2. GREENHOUSE (Easy — public JSON API)
+  # ---------------------------------------------------------------------------
+  - name: bridgebio
+    scraper_type: greenhouse
+    enabled: true
+    company: BridgeBio
+    params:
+      board_token: bridgebio
+
+  - name: revolution-medicines
+    scraper_type: greenhouse
+    enabled: true
+    company: Revolution Medicines
+    params:
+      board_token: revolutionmedicines
+
+  # ---------------------------------------------------------------------------
+  # 3. ATTRAX (Moderate — server-rendered HTML)
+  # ---------------------------------------------------------------------------
+  - name: abbvie
+    scraper_type: attrax
+    enabled: true
+    url: https://careers.abbvie.com
+    company: AbbVie
+    keywords: ["scientist"]
+    params:
+      max_pages: 150  # site has ~1,300 jobs, ~10 per page = ~130 pages
+
+  # ---------------------------------------------------------------------------
+  # 4. TALENTBREW (Moderate — may need API discovery)
+  # ---------------------------------------------------------------------------
+  - name: amgen
+    scraper_type: talentbrew
+    enabled: true
+    url: https://careers.amgen.com
+    company: Amgen
+    keywords: ["drug product"]
+    params:
+      max_pages: 20
+
+  # ---------------------------------------------------------------------------
+  # 5. PHENOM PEOPLE (Moderate-Hard — JS SPA, API discovery needed)
+  # ---------------------------------------------------------------------------
+  - name: genentech
+    scraper_type: phenom
+    enabled: true
+    url: https://gene.com/careers
+    company: Genentech
+    keywords: []
+    params:
+      max_pages: 20
+      page_size: 20
+
+  - name: merck
+    scraper_type: phenom
+    enabled: true
+    url: https://jobs.merck.com
+    company: Merck
+    keywords: []
+    params:
+      max_pages: 20
+      page_size: 20
+
+  # ---------------------------------------------------------------------------
+  # 6. WORKDAY (Hard — undocumented but predictable API)
+  # ---------------------------------------------------------------------------
+  - name: gilead
+    scraper_type: workday
+    enabled: true
+    url: https://gilead.wd1.myworkdayjobs.com
+    company: Gilead
+    keywords: ["drug product"]
+    params:
+      tenant: gilead
+      site: gileadcareers
+      max_pages: 50
+      page_size: 20
+
+  - name: bms
+    scraper_type: workday
+    enabled: true
+    url: https://bristolmyerssquibb.wd5.myworkdayjobs.com
+    company: Bristol Myers Squibb
+    keywords: ["drug product"]
+    params:
+      tenant: bristolmyerssquibb
+      site: BMS
+      max_pages: 50
+      page_size: 20
+
+  # ---------------------------------------------------------------------------
+  # 7. SUCCESSFACTORS (Hard — JS SPA, API discovery needed)
+  # ---------------------------------------------------------------------------
+  - name: novo-nordisk
+    scraper_type: successfactors
+    enabled: true
+    url: https://careers.novonordisk.com
+    company: Novo Nordisk
+    keywords: []
+    params:
+      max_pages: 20
+      page_size: 20
+
+  - name: astellas
+    scraper_type: successfactors
+    enabled: true
+    url: https://careers.astellas.com
+    company: Astellas
+    keywords: []
+    params:
+      max_pages: 20
+      page_size: 20
+
+  # ---------------------------------------------------------------------------
+  # 8. SPECIAL CASES
+  # ---------------------------------------------------------------------------
+  # Hinge Bio — no careers page exists. Rely on BioSpace aggregator coverage.
+  # If they add a careers page in the future, add a scraper config here.
