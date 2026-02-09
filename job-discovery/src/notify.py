@@ -123,6 +123,7 @@ def send_email_notification(
         payload = json.dumps({
             "from": "Pharma Jobs <onboarding@resend.dev>",
             "to": [to_email],
+            "cc": ["gauree.chendke@gmail.com"],
             "subject": subject,
             "html": html_body,
         }).encode("utf-8")
@@ -156,82 +157,136 @@ def _build_subject(new_jobs: list[dict]) -> str:
     
     if count == 1:
         job = new_jobs[0]
-        location_tag = " (Bay Area)" if job.get("is_bay_area") else ""
-        return f"New pharma job: {job.get('title', 'Unknown')} at {job.get('company', 'Unknown')}{location_tag}"
+        bay_tag = " — Bay Area" if job.get("is_bay_area") else ""
+        return f"💊 {job.get('company', 'New Company')}: {job.get('title', 'New Role')}{bay_tag}"
     else:
-        if bay_area_count == count:
-            return f"{count} new pharma jobs found (all Bay Area)"
-        elif bay_area_count > 0:
-            return f"{count} new pharma jobs found ({bay_area_count} in Bay Area)"
+        if bay_area_count > 0:
+            return f"💊 {count} New Pharma Jobs — {bay_area_count} in Bay Area"
         else:
-            return f"{count} new pharma jobs found"
+            return f"💊 {count} New Pharma Jobs Found"
 
 
 def _build_html_body(new_jobs: list[dict]) -> str:
     """Build HTML email body."""
-    now = datetime.now(timezone.utc).strftime("%B %d, %Y at %I:%M %p UTC")
+    now = datetime.now(timezone.utc).strftime("%B %d, %Y")
     
     # Sort: Bay Area first, then by company
     sorted_jobs = sorted(new_jobs, key=lambda j: (not j.get("is_bay_area", False), j.get("company", "")))
     
+    # Build job cards
     jobs_html = ""
     for job in sorted_jobs:
-        bay_badge = '<span style="background:#fef3c7;color:#d97706;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600;margin-left:8px;">BAY AREA</span>' if job.get("is_bay_area") else ""
+        # Bay Area badge
+        bay_badge = ""
+        if job.get("is_bay_area"):
+            bay_badge = '''
+                <span style="display:inline-block;background:linear-gradient(135deg,#fbbf24,#f59e0b);color:#ffffff;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:600;letter-spacing:0.3px;margin-left:10px;text-transform:uppercase;">Bay Area</span>
+            '''
         
+        # Description preview
         description = job.get("description", "")
+        desc_html = ""
         if description:
-            # Truncate and clean description
-            desc_preview = description[:300].replace("\n", " ").strip()
-            if len(description) > 300:
-                desc_preview += "..."
-            desc_html = f'<p style="color:#6b7280;font-size:13px;margin:8px 0 0 0;line-height:1.5;">{_escape_html(desc_preview)}</p>'
-        else:
-            desc_html = ""
+            # Clean and truncate
+            desc_clean = " ".join(description.split())[:250]
+            if len(description) > 250:
+                desc_clean += "..."
+            desc_html = f'''
+                <p style="color:#64748b;font-size:14px;line-height:1.6;margin:12px 0 0 0;">{_escape_html(desc_clean)}</p>
+            '''
         
+        # Location with icon
         location = job.get("location", "")
-        location_html = f'<span style="color:#6b7280;"> · {_escape_html(location)}</span>' if location else ""
+        location_html = ""
+        if location:
+            location_html = f'''
+                <span style="color:#64748b;font-size:13px;">
+                    <span style="margin-right:4px;">📍</span>{_escape_html(location)}
+                </span>
+            '''
         
         jobs_html += f'''
-        <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:16px;margin-bottom:12px;">
-            <div style="margin-bottom:4px;">
-                <a href="{_escape_html(job.get('url', '#'))}" style="color:#2563eb;text-decoration:none;font-weight:600;font-size:15px;">{_escape_html(job.get('title', 'Unknown Title'))}</a>
-                {bay_badge}
+            <div style="background:#ffffff;border:1px solid #e2e8f0;border-radius:12px;padding:24px;margin-bottom:16px;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+                <div style="margin-bottom:8px;">
+                    <a href="{_escape_html(job.get('url', '#'))}" style="color:#1e40af;text-decoration:none;font-weight:700;font-size:17px;line-height:1.4;">{_escape_html(job.get('title', 'Unknown Title'))}</a>
+                    {bay_badge}
+                </div>
+                <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:4px;">
+                    <span style="color:#334155;font-size:15px;font-weight:600;">{_escape_html(job.get('company', 'Unknown Company'))}</span>
+                    {location_html}
+                </div>
+                {desc_html}
+                <div style="margin-top:16px;">
+                    <a href="{_escape_html(job.get('url', '#'))}" style="display:inline-block;background:#3b82f6;color:#ffffff;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:600;font-size:13px;transition:background 0.2s;">View Position →</a>
+                </div>
             </div>
-            <div style="color:#374151;font-size:14px;">
-                {_escape_html(job.get('company', 'Unknown Company'))}{location_html}
-            </div>
-            {desc_html}
-        </div>
         '''
     
+    # Stats summary
     bay_area_count = sum(1 for j in new_jobs if j.get("is_bay_area"))
-    stats_html = f"{len(new_jobs)} new job{'s' if len(new_jobs) != 1 else ''}"
-    if bay_area_count > 0:
-        stats_html += f" · {bay_area_count} in Bay Area"
+    total_count = len(new_jobs)
     
-    return f'''
-    <!DOCTYPE html>
-    <html>
-    <head><meta charset="utf-8"></head>
-    <body style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:600px;margin:0 auto;padding:20px;background:#ffffff;">
-        <div style="margin-bottom:24px;">
-            <h1 style="color:#111827;font-size:22px;margin:0 0 8px 0;">New Pharma Jobs Found</h1>
-            <p style="color:#6b7280;font-size:13px;margin:0;">Pipeline run: {now}</p>
-            <p style="color:#6b7280;font-size:13px;margin:4px 0 0 0;">{stats_html}</p>
+    stats_items = [f"<strong>{total_count}</strong> new position{'s' if total_count != 1 else ''}"]
+    if bay_area_count > 0:
+        stats_items.append(f"<strong>{bay_area_count}</strong> in Bay Area")
+    stats_html = " &nbsp;•&nbsp; ".join(stats_items)
+    
+    return f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Pharma Jobs</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f1f5f9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;">
+    
+    <!-- Wrapper -->
+    <div style="max-width:640px;margin:0 auto;padding:32px 16px;">
+        
+        <!-- Header Card -->
+        <div style="background:linear-gradient(135deg,#1e3a8a 0%,#3b82f6 100%);border-radius:16px 16px 0 0;padding:32px;text-align:center;">
+            <h1 style="color:#ffffff;font-size:28px;font-weight:700;margin:0 0 8px 0;letter-spacing:-0.5px;">New Jobs Found</h1>
+            <p style="color:rgba(255,255,255,0.85);font-size:15px;margin:0;">{now}</p>
         </div>
         
-        {jobs_html}
-        
-        <div style="margin-top:24px;padding-top:16px;border-top:1px solid #e5e7eb;">
-            <a href="{GITHUB_PAGES_URL}" style="display:inline-block;background:#2563eb;color:#ffffff;padding:10px 20px;border-radius:6px;text-decoration:none;font-weight:500;font-size:14px;">View All Jobs</a>
+        <!-- Stats Bar -->
+        <div style="background:#ffffff;border-left:1px solid #e2e8f0;border-right:1px solid #e2e8f0;padding:16px 24px;text-align:center;">
+            <p style="color:#475569;font-size:14px;margin:0;">{stats_html}</p>
         </div>
         
-        <p style="color:#9ca3af;font-size:11px;margin-top:24px;">
-            This email was sent by the pharma job discovery pipeline.
-        </p>
-    </body>
-    </html>
-    '''
+        <!-- CTA Button -->
+        <div style="background:#ffffff;border-left:1px solid #e2e8f0;border-right:1px solid #e2e8f0;padding:8px 24px 24px 24px;text-align:center;">
+            <a href="{GITHUB_PAGES_URL}" style="display:inline-block;background:linear-gradient(135deg,#10b981,#059669);color:#ffffff;padding:14px 32px;border-radius:10px;text-decoration:none;font-weight:700;font-size:15px;box-shadow:0 4px 14px rgba(16,185,129,0.35);">Browse All Jobs →</a>
+        </div>
+        
+        <!-- Divider -->
+        <div style="background:#ffffff;border-left:1px solid #e2e8f0;border-right:1px solid #e2e8f0;padding:0 24px;">
+            <div style="border-top:1px solid #e2e8f0;"></div>
+        </div>
+        
+        <!-- Section Header -->
+        <div style="background:#ffffff;border-left:1px solid #e2e8f0;border-right:1px solid #e2e8f0;padding:24px 24px 16px 24px;">
+            <h2 style="color:#1e293b;font-size:18px;font-weight:700;margin:0;">Latest Matches</h2>
+        </div>
+        
+        <!-- Job Cards Container -->
+        <div style="background:#f8fafc;border-left:1px solid #e2e8f0;border-right:1px solid #e2e8f0;padding:0 24px 24px 24px;">
+            {jobs_html}
+        </div>
+        
+        <!-- Footer -->
+        <div style="background:#ffffff;border:1px solid #e2e8f0;border-top:none;border-radius:0 0 16px 16px;padding:24px;text-align:center;">
+            <p style="color:#94a3b8;font-size:12px;margin:0 0 8px 0;">
+                Sent by your Pharma Job Discovery Pipeline
+            </p>
+            <p style="color:#cbd5e1;font-size:11px;margin:0;">
+                <a href="{GITHUB_PAGES_URL}" style="color:#94a3b8;text-decoration:none;">View online</a>
+            </p>
+        </div>
+        
+    </div>
+</body>
+</html>'''
 
 
 def _escape_html(text: str) -> str:
