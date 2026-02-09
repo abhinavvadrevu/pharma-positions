@@ -214,6 +214,7 @@ def save_matched_jobs(
             "location": job.get("location", ""),
             "is_bay_area": job.get("is_bay_area", False),
             "department": job.get("department", ""),
+            "description": job.get("description", ""),
             "date_posted": job.get("date_posted") or job.get("posted_date"),
             "date_found": now,
             "source": job.get("source", ""),
