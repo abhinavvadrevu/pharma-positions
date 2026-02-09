@@ -1,6 +1,6 @@
 ---
 name: run-pipeline
-description: "**[REQUIRED]** Use for ALL pharma job discovery tasks. Runs the COMPLETE pipeline end-to-end: scraping → filtering → LLM evaluation → saving to jobs.json. MUST complete all steps. Triggers: run pipeline, find jobs, discover jobs, scrape jobs, job search, check for jobs, pharma jobs, job discovery, run the pipeline, execute pipeline, search for jobs."
+description: "**[REQUIRED]** Use for ALL pharma job discovery tasks. Runs the COMPLETE pipeline end-to-end: scraping → filtering → LLM evaluation → saving → notifications. MUST complete all steps. Triggers: run pipeline, find jobs, discover jobs, scrape jobs, job search, check for jobs, pharma jobs, job discovery, run the pipeline, execute pipeline, search for jobs."
 ---
 
 # Run Pipeline Skill
@@ -183,6 +183,45 @@ print(f'Total matches in jobs.json: {total}')
 "
 ```
 
+## Step 5: Notify (Git Push + Email)
+
+**ONLY run this step if there were new matched jobs in Step 4.**
+
+This step commits and pushes to GitHub, then sends an email notification.
+
+Use the Bash tool with `secret_env` to inject the Resend API key securely:
+
+```bash
+# Run with secret_env: {"RESEND_API_KEY": "resend_api_key"}
+cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
+.venv/bin/python -c "
+import json
+from pathlib import Path
+from src.notify import run_notifications
+
+# YOU MUST REPLACE THIS with the same matched_jobs list from Step 4
+matched_jobs = []  # <-- FILL THIS IN (same list as Step 4)
+
+results = run_notifications(matched_jobs)
+
+# Report results
+for name, result in results.items():
+    status = '✓' if result['success'] else '✗'
+    print(f'{status} {name}: {result[\"message\"]}')
+"
+```
+
+**IMPORTANT:** When running the notification script, you MUST use the `secret_env` parameter in the Bash tool call to inject the API key:
+
+```json
+{
+  "command": "cd ... && .venv/bin/python -c '...'",
+  "secret_env": {"RESEND_API_KEY": "resend_api_key"}
+}
+```
+
+This securely injects the stored secret without exposing it in the command or logs.
+
 ## Summary
 
 When user says "run the job discovery pipeline":
@@ -191,6 +230,7 @@ When user says "run the job discovery pipeline":
 2. **Run** Step 2 (cheap filters script)  
 3. **Do** Step 3 (read candidates.json, evaluate each job yourself, classify Bay Area)
 4. **Run** Step 4 (save script with your matched jobs including is_bay_area)
-5. **Report** final counts
+5. **Run** Step 5 (notify script with same matched jobs - ONLY if there were matches)
+6. **Report** final counts
 
-**DO NOT stop after Step 1 or Step 2. The pipeline is not complete until jobs.json is updated.**
+**DO NOT stop early. The pipeline is not complete until notifications are sent (if there were matches).**
