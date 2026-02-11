@@ -123,7 +123,8 @@ def send_email_notification(
         payload = json.dumps({
             "from": "Pharma Jobs <onboarding@resend.dev>",
             "to": [to_email],
-            "cc": ["gauree.chendke@gmail.com"],
+            # CC disabled until custom domain is verified at resend.com/domains
+            # "cc": ["gauree.chendke@gmail.com"],
             "subject": subject,
             "html": html_body,
         }).encode("utf-8")
