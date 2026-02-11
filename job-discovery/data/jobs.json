@@ -223,5 +223,50 @@
     "notified_at": null,
     "is_bay_area": true,
     "description": "Company Description AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addre..."
+  },
+  {
+    "id": "a548068a-7c1f-428b-ae61-2a62089ac568",
+    "company": "Regeneron Pharmaceuticals, Inc.",
+    "title": "Sr. Manager, Microbiology Formulation Development",
+    "url": "https://www.biospace.com/job/3030816/sr-manager-microbiology-formulation-development/",
+    "location": "Tarrytown, New York",
+    "is_bay_area": false,
+    "department": "",
+    "description": "We are seeking a talented and driven Sr. Manager with expertise in microbiology to join the  Formulation Development Group  at Regeneron Pharmaceut...",
+    "date_posted": null,
+    "date_found": "2026-02-11T17:06:35.798417+00:00",
+    "source": "biospace",
+    "notified": false,
+    "notified_at": null
+  },
+  {
+    "id": "485711f9-2c4f-4040-a8bc-fbd8fd170ca2",
+    "company": "Eli Lilly and Company",
+    "title": "Principal Scientist Biophysical Characterization",
+    "url": "https://www.biospace.com/job/3030864/principal-scientist-biophysical-characterization/",
+    "location": "Boston, Massachusetts",
+    "is_bay_area": false,
+    "department": "",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian...",
+    "date_posted": null,
+    "date_found": "2026-02-11T17:06:35.798417+00:00",
+    "source": "biospace",
+    "notified": false,
+    "notified_at": null
+  },
+  {
+    "id": "20d702a5-3240-4277-814d-e2119d380ad8",
+    "company": "AbbVie",
+    "title": "Principal Research Scientist I - Biologics Analytical R&D",
+    "url": "https://careers.abbvie.com/en/job/principal-research-scientist-i-biologics-analytical-r-and-d-in-north-chicago-il-jid-24573",
+    "location": "North Chicago, IL",
+    "is_bay_area": false,
+    "department": "Research & Development",
+    "description": "AbbVie Biologics Analytical Research & Development (Biologics Analytical R&D) is a global analytical sciences organization responsible for all CMC analytical activities related to the development of A",
+    "date_posted": null,
+    "date_found": "2026-02-11T17:06:35.798417+00:00",
+    "source": "attrax:abbvie",
+    "notified": false,
+    "notified_at": null
   }
 ]
