@@ -1,18 +1,28 @@
 [
   {
-    "title": "Scientist I, Biologics Drug Product Development",
-    "company": "AbbVie",
-    "url": "https://www.biospace.com/job/3032948/scientist-i-biologics-drug-product-development/",
-    "location": "North Chicago, IL",
+    "title": "Specialist Quality Assurance - Drug Product",
+    "company": "Amgen",
+    "url": "https://www.biospace.com/job/3033973/specialist-quality-assurance-drug-product/",
+    "location": "Thousand Oaks, California",
     "department": "",
     "date_posted": null,
     "source": "biospace",
-    "description": "Company Description AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addre..."
+    "description": "Join Amgens Mission of Serving Patients At Amgen, if you feel like youre part of something bigger, its because you are' Our shared missionto serve ..."
   },
   {
-    "title": "Principal Process Engineer, Parenteral Drug Product Development (non-PhD)",
+    "title": "Senior Manager, Drug Product Technical Operations",
+    "company": "Moderna, Inc.",
+    "url": "https://www.biospace.com/job/3033261/senior-manager-drug-product-technical-operations/",
+    "location": "Norwood, Massachusetts",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "The Role: Joining Moderna offers the unique opportunity to be part of a pioneering team that's revolutionizing medicine through mRNA technology, wi..."
+  },
+  {
+    "title": "Data Scientist – Drug Delivery Device Development",
     "company": "Eli Lilly and Company",
-    "url": "https://www.biospace.com/job/3029554/principal-process-engineer-parenteral-drug-product-development-non-phd-/",
+    "url": "https://www.biospace.com/job/3034316/data-scientist-drug-delivery-device-development/",
     "location": "Indianapolis, Indiana",
     "department": "",
     "date_posted": null,
@@ -20,59 +30,9 @@
     "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
   },
   {
-    "title": "Lead Formulation Development",
-    "company": "Syngene International Ltd",
-    "url": "https://www.biospace.com/job/3033187/lead-formulation-development/",
-    "location": "Bangalore, KA, IN, 560099",
-    "department": "",
-    "date_posted": null,
-    "source": "biospace",
-    "description": "Designation:  Lead Formulation Development"
-  },
-  {
-    "title": "Senior Scientist, Engineering I",
-    "company": "AbbVie",
-    "url": "https://www.biospace.com/job/3033068/senior-scientist-engineering-i/",
-    "location": "North Chicago, IL",
-    "department": "",
-    "date_posted": null,
-    "source": "biospace",
-    "description": "Company Description AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addre..."
-  },
-  {
-    "title": "Senior Scientist I/II,  Analytical Chemistry - Particle and Material Analysis",
-    "company": "AbbVie",
-    "url": "https://www.biospace.com/job/3033062/senior-scientist-i-ii-analytical-chemistry-particle-and-material-analysis/",
-    "location": "North Chicago, IL",
-    "department": "",
-    "date_posted": null,
-    "source": "biospace",
-    "description": "Company Description AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addre..."
-  },
-  {
-    "title": "Sr. Scientist II, Biomaterials Research",
-    "company": "AbbVie",
-    "url": "https://www.biospace.com/job/3033057/sr-scientist-ii-biomaterials-research/",
-    "location": "Irvine, CA",
-    "department": "",
-    "date_posted": null,
-    "source": "biospace",
-    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
-  },
-  {
-    "title": "Senior Scientist/Principal Scientist, Quantitative Pharmacology  (Contractor)",
-    "company": "Legend Biotech",
-    "url": "https://www.biospace.com/job/3033048/senior-scientist-principal-scientist-quantitative-pharmacology-contractor-/",
-    "location": "Somerset, New Jersey",
-    "department": "",
-    "date_posted": null,
-    "source": "biospace",
-    "description": "Legend Biotech is a global biotechnology company dedicated to treating, and one day curing, life-threatening diseases. Headquartered in Somerset, N..."
-  },
-  {
-    "title": "Senior Scientist Analytical Chemistry",
+    "title": "Advisor - Scientific Machine Learning Scientist - Drug Delivery Device Development",
     "company": "Eli Lilly and Company",
-    "url": "https://www.biospace.com/job/3033150/senior-scientist-analytical-chemistry/",
+    "url": "https://www.biospace.com/job/3034309/advisor-scientific-machine-learning-scientist-drug-delivery-device-development/",
     "location": "Indianapolis, Indiana",
     "department": "",
     "date_posted": null,
@@ -80,133 +40,693 @@
     "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
   },
   {
-    "title": "Senior Scientist I - PK/PD modeling",
+    "title": "Senior Scientist I (Machine Learning) - Biologics Drug Substance Development, Cell Culture",
     "company": "AbbVie",
-    "url": "https://www.biospace.com/job/3033061/senior-scientist-i-pk-pd-modeling/",
+    "url": "https://www.biospace.com/job/3034004/senior-scientist-i-machine-learning-biologics-drug-substance-development-cell-culture/",
     "location": "South San Francisco, CA",
     "department": "",
     "date_posted": null,
     "source": "biospace",
-    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
+    "description": "Company Description AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addre..."
   },
   {
-    "title": "Senior Clinical Scientist",
-    "company": "Revolution Medicines",
-    "url": "https://www.revmed.com/careers-list/?gh_jid=7486252003",
-    "location": "Redwood City, California, United States",
-    "department": "Clinical Sciences",
-    "date_posted": "2026-02-23T14:21:43-05:00",
-    "source": "greenhouse:revolutionmedicines",
-    "description": "<p>Revolution Medicines is a clinical-stage precision oncology company focused on developing novel targeted therapies to inhibit frontier targets in RAS-addicted cancers.&nbsp; The company’s R&amp;D pipeline comprises RAS(ON) Inhibitors designed to suppress diverse oncogenic variants of RAS proteins, and RAS Companion Inhibitors for use in combination treatment strategies. As a new member of the Revolution Medicines team, you will join other outstanding Revolutionaries in a tireless commitment to patients with cancers harboring mutations in the RAS signaling pathway.</p>\n<p><strong>The Opportunity:</strong></p>\n<p>We are seeking an accomplished Senior Clinical Scientist to join our Clinical Development team with a primary focus on GI oncology. This individual will play a strategic and operational role in the design, execution, analysis, and reporting of clinical trials, with particular responsibility for ensuring the accuracy, integrity, and regulatory compliance of clinical data used in NDA, BLA, and global submissions.</p>\n<p>The Senior Clinical Scientist will serve as a bridge between clinical research, data review, cleaning, regulatory science, and data management, partnering closely with physician leads, statisticians, regulatory affairs, CRO, clinical trial sites, and medical writing teams to deliver high-quality data packages that withstand global regulatory scrutiny.</p>\n<p>This role will also work with the cross-functional teams for the design, execution, and monitoring of clinical studies, as well as assist with data review, interpretation, and communication to both internal and external stakeholders. Oncology and/or late-stage experience is preferred.&nbsp;</p>\n<ul>\n<li>\n<p>Drive clinical data review and cleaning activities, ensuring medical and scientific accuracy in patient-level data prior to database lock.</p>\n</li>\n<li>\n<p>Experience in preparation and/or review patient’s narratives (mini narratives and full narratives) for NDA/BLA submissions.</p>\n</li>\n<li>\n<p>Collaborate with Clinical Data Management to define data cleaning strategies, edit checks, and reconciliation processes across efficacy, safety, and biomarker datasets.</p>\n</li>\n<li>\n<p>Lead or co-lead clinical data review meetings, escalating scientific issues, resolving discrepancies, and ensuring traceability for regulatory filings.</p>\n</li>\n<li>\n<p>Strong working knowledge of data cleaning, database lock processes, and clinical data review.</p>\n</li>\n<li>\n<p>Proven ability to lead cross-functional clinical teams and contribute to strategic development plans.</p>\n</li>\n<li>\n<p>Contribute to clinical development strategy and execution of the Clinical Development Plan (CDP) with a focus on early-phase development.</p>\n</li>\n<li>\n<p>Contribute to the clinical data content of NDA, BLA, and MAA dossiers, including clinical study reports (CSRs), integrated summaries of safety/efficacy (ISS/ISE), and module 2.7 (2.7.3, 2.7.4, 2.7.5) of submission documents.</p>\n</li>\n<li>\n<p>Support regulatory agency interactions by preparing briefing documents, contributing to responses, and ensuring scientific consistency across submission components.</p>\n</li>\n<li>\n<p>Partner with cross-functional teams with oversight from senior team members to conduct clinical studies, including study start up, execution and close out activities, data review/analysis, and preparation of study reports.</p>\n</li>\n<li>\n<p>Contribute to the development of program-level documents, including but not limited to clinical protocols, investigator’s brochure, clinical study reports, abstracts and manuscripts, presentations, and various other internal and external documents and communications as needed.</p>\n</li>\n<li>\n<p>Conduct ongoing data reviews; prepare and present summaries to internal and external stakeholders.</p>\n</li>\n<li>\n<p>Ensure trial implementation according to the protocol and analyze information to assess issues relating to protocol conduct and/or individual subject safety.</p>\n</li>\n<li>\n<p>Interact with internal and external stakeholders (investigators, study sites, vendors, committees, etc.) in support of clinical trial objectives; responds to or triages questions for appropriate escalation.</p>\n</li>\n<li>\n<p>Conduct literature reviews as needed.</p>\n</li>\n<li>\n<p>Travel: Up to 20%.</p>\n</li>\n</ul>\n<p><strong>Required Skills, Experience and Education:</strong></p>\n<ul>\n<li>\n<p>A PhD, PharmD or equivalent is required. The years of experience are based on clinical development or similar relevant experience.</p>\n</li>\n<li>\n<p>Minimum 3+ years of experience in the pharmaceutical or biotechnology industry as a clinical scientist or related role.</p>\n</li>\n<li>\n<p>Minimum of 4 years’ experience supporting or leading data review and cleaning activities for NDA/BLA/MAA submissions in oncology or related therapeutic areas.</p>\n</li>\n<li>\n<p>Familiarity with statistical outputs and data visualization tools (e.g., Spotfire, R, SAS).</p>\n</li>\n<li>\n<p>Thrives in a collaborative team setting and is driven by a desire to deploy innovative approaches and technologies in a high-energy environment.</p>\n</li>\n<li>\n<p>Detail-oriented with ability prioritize tasks and function independently as appropriate.</p>\n</li>\n<li>\n<p>Strong organizational skills and an ability to interpret, discuss, and report trial/program level data effectively and identify trends.</p>\n</li>\n<li>\n<p>Proficient with software tools (Microsoft Office), Electronic Data Capture, and other custom web-based software.</p>\n</li>\n<li>\n<p>Excellent written and verbal communication skills.</p>\n</li>\n</ul>\n<p><strong>Preferred Skills</strong></p>\n<ul>\n<li>\n<p>Strong experience with clinical data review and data quality assurance.</p>\n</li>\n<li>\n<p>Knowledge and experience with clinical trial management and oversight, data cleaning, review and verification processes.</p>\n</li>\n<li>\n<p>Understanding and experience in clinical trial protocol and regulatory document authoring.</p>\n</li>\n</ul>\n<p><span style=\"color: rgb(255, 255, 255);\">#LI-Hybrid&nbsp; #LI-SH1</span></p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The base pay salary range for this full-time position for candidates working onsite at our headquarters in Redwood City, CA is listed below. The range displayed on each job posting is intended to be the base pay salary range for an individual working onsite in Redwood City and will be adjusted for the local market a candidate is based in. Our base pay salary ranges are determined by role, level, and location. Individual base pay salary is determined by multiple factors, including job-related skills, experience, market dynamics, and relevant education or training.</p>\n<p>Please note that base pay salary range is one part of the overall total rewards program at RevMed, which includes competitive cash compensation, robust equity awards, strong benefits, and significant learning and development opportunities.</p>\n<p>Revolution Medicines is an equal opportunity employer and prohibits unlawful discrimination based on race, color, religion, gender, sexual orientation, gender identity/expression, national origin/ancestry, age, disability, marital status, medical condition, and veteran status.</p>\n<p>Revolution Medicines takes protection and security of personal data very seriously and respects your right to privacy while using our website and when contacting us by email or phone. We will only collect, process and use any personal data that you provide to us in accordance with our&nbsp;<a href=\"https://www.revmed.com/ccpa-notice\">CCPA Notice</a>&nbsp;and&nbsp;<a href=\"https://www.revmed.com/privacy-policy\">Privacy Policy</a>.&nbsp;For additional information, please contact&nbsp;<a href=\"mailto:privacy@revmed.com\">privacy@revmed.com</a>.</p></div><div class=\"title\">Base Pay Salary Range</div><div class=\"pay-range\"><span>$164,000</span><span class=\"divider\">&mdash;</span><span>$205,000 USD</span></div></div></div>"
-  },
-  {
-    "title": "Senior Scientist II - Principal Scientist I, Analytical R&D (Bioassay)",
-    "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/senior-scientist-ii-principal-scientist-i-analytical-r-and-d-bioassay-in-north-chicago-il-jid-25084",
-    "location": "North Chicago, IL",
-    "department": "Research & Development",
+    "title": "Senior Scientist, Research (Bioinformatics)",
+    "company": "Visterra, Inc.",
+    "url": "https://www.biospace.com/job/3034061/senior-scientist-research-bioinformatics-/",
+    "location": "Waltham, Massachusetts",
+    "department": "",
     "date_posted": null,
-    "source": "attrax:abbvie",
-    "description": "About the Team:The Analytical Development group within the Targeted LNP (tLNP) CMC Team at AbbVie is dedicated to advancing state-of-the-art analytical capabilities for mRNA-lipid nanoparticle therape"
+    "source": "biospace",
+    "description": "The Senior Scientist, Research   position is a key member of the Genomics Platform team and will be involved in bioinformatics analyses of genomics..."
   },
   {
-    "title": "Senior Scientist, Engineering I",
-    "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/senior-scientist-engineering-i-in-north-chicago-il-jid-25049",
-    "location": "North Chicago, IL",
-    "department": "Research & Development",
+    "title": "Advisor - Parenteral Filling & Lyophilization Process Engineer",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3033750/advisor-parenteral-filling-and-lyophilization-process-engineer/",
+    "location": "Indianapolis, Indiana",
+    "department": "",
     "date_posted": null,
-    "source": "attrax:abbvie",
-    "description": "Process Engineering, a part of AbbVie R&D’s Development Sciences organization, is responsible for designing and developing scalable processes to make drug substances and drug products, including small"
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Senior Scientist Formulation and Process Development",
+    "company": "Insmed Incorporated",
+    "url": "https://www.biospace.com/job/3033580/senior-scientist-formulation-and-process-development/",
+    "location": "Bridgewater, NJ",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Insmed, every moment and every patient counts — and so does every person who joins in As a global biopharmaceutical company dedicated to transfo..."
+  },
+  {
+    "title": "Senior Scientist – Manufacturing Science",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3034304/senior-scientist-manufacturing-science/",
+    "location": "Indianapolis, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Scientist - TS/MS Manufacturing - Visual Inspection",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3034138/scientist-ts-ms-manufacturing-visual-inspection/",
+    "location": "Indianapolis, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Scientist/Engineer – Biologics Technical Operations – Lilly Medicine Foundry",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3033935/scientist-engineer-biologics-technical-operations-lilly-medicine-foundry/",
+    "location": "Lebanon, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Bioprocess Scientist - Process Translation and Execution Lilly Medicine Foundry",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3033955/bioprocess-scientist-process-translation-and-execution-lilly-medicine-foundry/",
+    "location": "Lebanon, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Senior Scientist Technical Operations #4375",
+    "company": "GRAIL Inc",
+    "url": "https://www.biospace.com/job/3033852/senior-scientist-technical-operations-4375/",
+    "location": "Durham, NC",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Our mission is to detect cancer early, when it can be cured. We are working to change the trajectory of cancer mortality and bring stakeholders togeth"
   },
   {
     "title": "Senior Scientist II - Principal Scientist I, Analytical R&D (Particle Characterization)",
     "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/senior-scientist-ii-principal-scientist-i-analytical-r-and-d-particle-characterization-in-north-chicago-il-jid-25085",
+    "url": "https://www.biospace.com/job/3033199/senior-scientist-ii-principal-scientist-i-analytical-r-and-d-particle-characterization-/",
     "location": "North Chicago, IL",
-    "department": "Research & Development",
+    "department": "",
     "date_posted": null,
-    "source": "attrax:abbvie",
-    "description": "About the Team:"
+    "source": "biospace",
+    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
   },
   {
-    "title": "Sr. Scientist II, Biomaterials Research",
+    "title": "Senior Scientist I - II, Analytical R&D (Lipids SME)",
     "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/sr-scientist-ii-biomaterials-research-in-irvine-ca-jid-25060",
-    "location": "Irvine, CA",
-    "department": "Research & Development",
+    "url": "https://www.biospace.com/job/3033830/senior-scientist-i-ii-analytical-r-and-d-lipids-sme-/",
+    "location": "North Chicago, IL",
+    "department": "",
     "date_posted": null,
-    "source": "attrax:abbvie",
-    "description": "The Sr. Scientist II is reporting to the Biomaterials Research group in Tissue Material Sciences (TMS). The Sr. Scientist II will play a pivotal role in the development of innovative biomaterials for"
+    "source": "biospace",
+    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
   },
   {
-    "title": "Senior Scientist I - PK/PD modeling",
+    "title": "Scientist II - Senior Scientist I, Analytical R&D (Electrophoresis SME)",
     "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/senior-scientist-i-pk-pd-modeling-in-south-san-francisco-ca-jid-25029",
-    "location": "South San Francisco, CA",
-    "department": "Research & Development",
+    "url": "https://www.biospace.com/job/3033824/scientist-ii-senior-scientist-i-analytical-r-and-d-electrophoresis-sme-/",
+    "location": "North Chicago, IL",
+    "department": "",
     "date_posted": null,
-    "source": "attrax:abbvie",
-    "description": "The Quantitative, Translational and ADME Sciences (QTAS) group is searching for a Senior Scientist to provide mechanistic and translational modeling and project support in all disease areas, informing"
-  },
-  {
-    "title": "Senior Scientist II, In Vitro Bioassay",
-    "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/senior-scientist-ii-in-vitro-bioassay-in-madison-wi-jid-25021",
-    "location": "Madison, WI",
-    "department": "Research & Development",
-    "date_posted": null,
-    "source": "attrax:abbvie",
-    "description": "Join our bioassay group in developing and executing a variety of in vitro bioassays, including biochemical and cellular assays. Conceive and execute novel scientific research or development that achie"
+    "source": "biospace",
+    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
   },
   {
     "title": "Senior Scientist I - II, Analytical R&D (Stability Coordinator)",
     "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/senior-scientist-i-ii-analytical-r-and-d-stability-coordinator-in-north-chicago-il-jid-25083",
+    "url": "https://www.biospace.com/job/3033204/senior-scientist-i-ii-analytical-r-and-d-stability-coordinator-/",
     "location": "North Chicago, IL",
-    "department": "Research & Development",
+    "department": "",
     "date_posted": null,
-    "source": "attrax:abbvie",
-    "description": "About the team:"
+    "source": "biospace",
+    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
   },
   {
-    "title": "Senior Scientist I/II,  Analytical Chemistry - Particle and Material Analysis",
+    "title": "Senior Scientist II - Principal Scientist I, Analytical R&D (Bioassay)",
     "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/senior-scientist-i-ii-analytical-chemistry-particle-and-material-analysis-in-north-chicago-il-jid-25034",
+    "url": "https://www.biospace.com/job/3033201/senior-scientist-ii-principal-scientist-i-analytical-r-and-d-bioassay-/",
+    "location": "North Chicago, IL",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
+  },
+  {
+    "title": "AD/ Principal Scientist CMC AAV Gene Therapy",
+    "company": "Ocugen, Inc.",
+    "url": "https://www.biospace.com/job/3033819/ad-principal-scientist-cmc-aav-gene-therapy/",
+    "location": "Malvern, PA",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "We are seeking an experienced CMC leader to drive BLA-stage readiness for AAV gene therapy programs This role serves..."
+  },
+  {
+    "title": "Operator Formulation/Prep",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3033738/operator-formulation-prep/",
+    "location": "Indianapolis, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Principal Scientist - Medicinal Chemistry",
+    "company": "Novo Nordisk",
+    "url": "https://www.biospace.com/job/3033557/principal-scientist-medicinal-chemistry/",
+    "location": "Lexington, MA",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Our Boston Research & Development hub, anchored in the greater Boston area, brings together the best minds in life science innovation. The teams lo..."
+  },
+  {
+    "title": "Scientist 2, Separations and Biophysical Characterization",
+    "company": "BioMarin Pharmaceutical Inc.",
+    "url": "https://www.biospace.com/job/3033822/scientist-2-separations-and-biophysical-characterization/",
+    "location": "Novato, California",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "DESCRIPTION Who We Are   BioMarin is a global biotechnology company that relentlessly pursues bold science to translate genetic discoveries into new m"
+  },
+  {
+    "title": "Advisor, Analytical CMC",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3033539/advisor-analytical-cmc/",
+    "location": "Boston, Massachusetts",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Senior/Principal Scientist – Technical Services & Manufacturing Science (TS/MS), API External",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3034123/senior-principal-scientist-technical-services-and-manufacturing-science-ts-ms-api-external/",
+    "location": "Indianapolis, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Scientist - TS/MS Consumables and Materials",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3033734/scientist-ts-ms-consumables-and-materials/",
+    "location": "Indianapolis, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Senior Principal Engineer - Automation Engineering – Biologics",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3033956/senior-principal-engineer-automation-engineering-biologics/",
+    "location": "Lebanon, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Advisor - Computational Scientist – Computational Fluid Dynamics (CFD)",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3034315/advisor-computational-scientist-computational-fluid-dynamics-cfd-/",
+    "location": "Indianapolis, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Advisor - Research Scientist - Advanced Real World Evidence Data Scientist & Analyst",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3033932/advisor-research-scientist-advanced-real-world-evidence-data-scientist-and-analyst/",
+    "location": "Remote, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Temporary Scientist I, Protein Science (12-Month Position)",
+    "company": "Modex Therapeutics Ltd.",
+    "url": "https://www.biospace.com/job/3033600/temporary-scientist-i-protein-science-12-month-position-/",
+    "location": "Weston, Massachusetts",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Company Overview ModeX Therapeutics, an OPKO Health company, is the leading clinical-stage biopharmaceutical company developing unique and propriet..."
+  },
+  {
+    "title": "Scientist – Chemical Hazards Laboratory SMDD Foundry Readiness",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3033730/scientist-chemical-hazards-laboratory-smdd-foundry-readiness/",
+    "location": "Indianapolis, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Senior Scientist I, Peptide Optimization",
+    "company": "AbbVie",
+    "url": "https://www.biospace.com/job/3034225/senior-scientist-i-peptide-optimization/",
+    "location": "Madison, WI",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
+  },
+  {
+    "title": "Senior Scientist II - Preclinical Primate Immunology",
+    "company": "AbbVie",
+    "url": "https://www.biospace.com/job/3033608/senior-scientist-ii-preclinical-primate-immunology/",
+    "location": "North Chicago, IL",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
+  },
+  {
+    "title": "Scientist I, Cellular Immunology",
+    "company": "AbbVie",
+    "url": "https://www.biospace.com/job/3034236/scientist-i-cellular-immunology/",
+    "location": "Worcester, MA",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
+  },
+  {
+    "title": "Sr. Scientist I, Brain Transport Biology",
+    "company": "AbbVie",
+    "url": "https://www.biospace.com/job/3033833/sr-scientist-i-brain-transport-biology/",
+    "location": "Cambridge, MA",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Company Description AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addre..."
+  },
+  {
+    "title": "Business Development Manager, Biologics (East Coast Based)",
+    "company": "United States Pharmacopeia",
+    "url": "https://www.biospace.com/job/3029754/business-development-manager-biologics-east-coast-based-/",
+    "location": "Concord, NH",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "The US Pharmacopeial Convention (USP) is an independent scientific organization that collaborates with the worlds leadi..."
+  },
+  {
+    "title": "Senior Scientist I, Histology",
+    "company": "AbbVie",
+    "url": "https://www.biospace.com/job/3034237/senior-scientist-i-histology/",
+    "location": "North Chicago, IL",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
+  },
+  {
+    "title": "Senior Scientist II, Histology",
+    "company": "AbbVie",
+    "url": "https://www.biospace.com/job/3034231/senior-scientist-ii-histology/",
+    "location": "North Chicago, IL",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
+  },
+  {
+    "title": "Senior Scientist I, In Vivo (Respiratory Focus)",
+    "company": "AbbVie",
+    "url": "https://www.biospace.com/job/3033836/senior-scientist-i-in-vivo-respiratory-focus-/",
+    "location": "Cambridge, MA",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Company Description AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addre..."
+  },
+  {
+    "title": "Scientist II, Complex In Vitro Models",
+    "company": "AbbVie",
+    "url": "https://www.biospace.com/job/3033610/scientist-ii-complex-in-vitro-models/",
+    "location": "Worcester, MA",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Company Description  AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addr..."
+  },
+  {
+    "title": "Senior Scientist II, Informatics",
+    "company": "AbbVie",
+    "url": "https://www.biospace.com/job/3033346/senior-scientist-ii-informatics/",
+    "location": "Worcester, MA",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Company Description AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and addre..."
+  },
+  {
+    "title": "Principal Scientist - Small Molecules - Biochemistry and Biophysics",
+    "company": "Novo Nordisk",
+    "url": "https://www.biospace.com/job/3033961/principal-scientist-small-molecules-biochemistry-and-biophysics/",
+    "location": "Lexington, MA",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Our Research & Development organization brings together the best minds in life science innovation. The teams located in facilities in Lexington, Wa..."
+  },
+  {
+    "title": "Senior Scientist - Immunology/Immunogenicity",
+    "company": "Amgen",
+    "url": "https://www.biospace.com/job/3034064/senior-scientist-immunology-immunogenicity/",
+    "location": "Thousand Oaks, California",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Join Amgens Mission of Serving Patients At Amgen, if you feel like youre part of something bigger, its because you are' Our shared missionto serve ..."
+  },
+  {
+    "title": "Senior Principal Scientist – Process Chemist",
+    "company": "Eli Lilly and Company",
+    "url": "https://www.biospace.com/job/3034314/senior-principal-scientist-process-chemist/",
+    "location": "Indianapolis, Indiana",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
+  },
+  {
+    "title": "Scientist II, Cancer Pharmacology, Translational Research",
+    "company": "Revolution Medicines",
+    "url": "https://www.revmed.com/careers-list/?gh_jid=6606185003",
+    "location": "Redwood City, California, United States",
+    "department": "Biomedical Discovery Research",
+    "date_posted": "2026-03-02T15:12:19-05:00",
+    "source": "greenhouse:revolutionmedicines",
+    "description": "<p>Revolution Medicines is a clinical-stage precision oncology company focused on developing novel targeted therapies to inhibit frontier targets in RAS-addicted cancers.&nbsp; The company’s R&amp;D pipeline comprises RAS(ON) Inhibitors designed to suppress diverse oncogenic variants of RAS proteins, and RAS Companion Inhibitors for use in combination treatment strategies. As a new member of the Revolution Medicines team, you will join other outstanding scientists in a tireless commitment to patients with cancers harboring mutations in the RAS signaling pathway.</p>\n<p><strong>The Opportunity:</strong></p>\n<p>As a Scientist II in the Translational Research team, within the Biology Department, you will:</p>\n<ul>\n<li>\n<p>As a member of a cross-functional quantitative modeling group, collaborate with team members to develop, validate and refine physiologically-based PK (PBPK), quantitative systems pharmacology (QSP), and semi-mechanistic PK/PD models to support discovery and development-phase projects.</p>\n</li>\n<li>\n<p>Seek and apply innovative modeling approaches to understand tumor resistance to RAS(ON) inhibitors and build in silico models, propose mechanistic in vitro and in vivo experiments to test model assumptions and structure.</p>\n</li>\n<li>\n<p>Design and oversee in vivo and ex vivo studies (internally and via CROs), develop and maintain high-quality protocols and documentation, and present results at internal forums and scientific conferences.</p>\n</li>\n</ul>\n<p><strong>Required Skills, Experience and Education:</strong></p>\n<ul>\n<li>\n<p>Ph.D. in pharmacology or cancer biology, or a quantitative discipline (pharmaceutical sciences, mathematics, systems pharmacology, computational biology, etc.) with direct relevance to drug development.</p>\n</li>\n<li>\n<p>2+ years of relevant postdoc or industry experience in cancer drug discovery and development.</p>\n</li>\n<li>\n<p>Demonstrated experience in <em>in vivo</em> experiments with oncology disease models.</p>\n</li>\n<li>\n<p>Solid PK/PD knowledge and prior experience with PK/PD data collection and analysis.</p>\n</li>\n<li>\n<p>A strong theoretical understanding of the core concepts, assumptions, and limitations associated with PK/PD mathematical modeling</p>\n</li>\n<li>\n<p>Rigorous, quantitative and detail-oriented with proven excellence in experimental design, data analysis, data management, and presentation.</p>\n</li>\n</ul>\n<ul>\n<li>\n<p>Excellent written and verbal communication skills. Able to effectively communicate modeling assumptions, limitations, and simulation results to non-specialist and specialist audiences.</p>\n</li>\n<li>\n<p>Demonstrated ability to multi-task, prioritize options, anticipate challenges, and execute on goals as a member of an interdisciplinary team is extremely important.</p>\n</li>\n<li>\n<p>Thrives in a collaborative team setting and is driven by a desire to be innovative in a dynamic and fast-paced environment.</p>\n</li>\n</ul>\n<p><strong>Preferred Skills:</strong></p>\n<ul>\n<li>\n<p>An understanding of preclinical to clinical translational concepts desired.</p>\n</li>\n<li>\n<p>Strong track record of research productivity as evidenced by high-quality, impactful publications.</p>\n</li>\n<li>\n<p>Experience with development, calibration, and validation of ordinary differential equation (ODE) and non-linear mixed effect (NLME) models.</p>\n</li>\n<li>\n<p>Hands on experience with modeling software (Simbiology, Phoenix WinNonlin, NONMEM, etc.) and PBPK model development.<br><span style=\"color: rgb(255, 255, 255);\">#LI-Hybrid&nbsp; &nbsp;#LI-NE1</span></p>\n</li>\n</ul><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The base pay salary range for this full-time position for candidates working onsite at our headquarters in Redwood City, CA is listed below. The range displayed on each job posting is intended to be the base pay salary range for an individual working onsite in Redwood City and will be adjusted for the local market a candidate is based in. Our base pay salary ranges are determined by role, level, and location. Individual base pay salary is determined by multiple factors, including job-related skills, experience, market dynamics, and relevant education or training.</p>\n<p>Please note that base pay salary range is one part of the overall total rewards program at RevMed, which includes competitive cash compensation, robust equity awards, strong benefits, and significant learning and development opportunities.</p>\n<p>Revolution Medicines is an equal opportunity employer and prohibits unlawful discrimination based on race, color, religion, gender, sexual orientation, gender identity/expression, national origin/ancestry, age, disability, marital status, medical condition, and veteran status.</p>\n<p>Revolution Medicines takes protection and security of personal data very seriously and respects your right to privacy while using our website and when contacting us by email or phone. We will only collect, process and use any personal data that you provide to us in accordance with our&nbsp;<a href=\"https://www.revmed.com/ccpa-notice\">CCPA Notice</a>&nbsp;and&nbsp;<a href=\"https://www.revmed.com/privacy-policy\">Privacy Policy</a>.&nbsp;For additional information, please contact&nbsp;<a href=\"mailto:privacy@revmed.com\">privacy@revmed.com</a>.</p></div><div class=\"title\">Base Pay Salary Range</div><div class=\"pay-range\"><span>$128,000</span><span class=\"divider\">&mdash;</span><span>$160,000 USD</span></div></div></div><div class=\"content-conclusion\"><hr>\n<p><em>We are aware of recent recruitment scams in which individuals or organizations falsely represent themselves as being affiliated with Revolution Medicines. These scams may appear as false job advertisements or unsolicited contacts through communication or chat platforms, email, phone, or text message.</em><br><em>&nbsp;</em><br><em>Please note that Revolution Medicines does not extend unsolicited employment offers and will never ask candidates to provide financial information, purchase equipment, or pay fees as part of the hiring process. All legitimate communication from Revolution Medicines will come from an official <strong>@revmed.com</strong> email address.</em><br><em>&nbsp;</em><br><em>If you believe you’ve been contacted by someone impersonating a Revolution Medicines recruiter, please report it to <span style=\"color: rgb(35, 111, 161);\"><strong>careers@revmed.com</strong></span> so we can share these impersonations with our IT team for tracking and awareness.</em></p>\n<hr>\n<p>&nbsp;</p></div>"
+  },
+  {
+    "title": "Senior Manager, CMC Regulatory",
+    "company": "Revolution Medicines",
+    "url": "https://www.revmed.com/careers-list/?gh_jid=6671458003",
+    "location": "Redwood City, California, United States",
+    "department": "Pharmaceutical Development & Manufacturing  (PDM)",
+    "date_posted": "2026-03-02T15:12:19-05:00",
+    "source": "greenhouse:revolutionmedicines",
+    "description": "<p>Revolution Medicines is a clinical-stage precision oncology company focused on developing novel targeted therapies to inhibit frontier targets in RAS-addicted cancers.&nbsp; The company’s R&amp;D pipeline comprises RAS(ON) Inhibitors designed to suppress diverse oncogenic variants of RAS proteins, and RAS Companion Inhibitors for use in combination treatment strategies. As a new member of the Revolution Medicines team, you will join other outstanding scientists in a tireless commitment to patients with cancers harboring mutations in the RAS signaling pathway.</p>\n<p><strong>The Opportunity:</strong></p>\n<p>This position is responsible for developing and implementing global CMC regulatory strategies. The role involves coordinating CMC regulatory activities to support the clinical development and eventual marketing approval of RevMed’s pipeline compounds / products. The ideal candidate should have a strong understanding of regulatory requirements and be able to guide CMC teams throughout the drug development process.</p>\n<p>Responsibilities:</p>\n<ul>\n<li>\n<p>Collaborate, and manage the CMC regulatory activities for global clinical trials, ensuring compliance with regulatory requirements across regions (FDA, EMA, APAC, etc.).</p>\n</li>\n<li>\n<p>Collaborate with internal stakeholders to support the preparation of CMC / quality sections for regulatory submissions including initial submission of IND, IMPD/CTA, NDA, MAA and amendments to Health Authorities (HAs), and preparation of responses to queries from HAs.</p>\n</li>\n<li>\n<p>Assess changes to clinical trial materials or processes and prepare the necessary documents for regulatory amendments.</p>\n</li>\n<li>\n<p>Identify and mitigate regulatory risks, manage CMC timelines and milestones, and ensure the timely submission of high-quality CMC dossiers to support clinical trials.</p>\n</li>\n<li>\n<p>Provide updates to senior management on regulatory activities and submission progress.</p>\n</li>\n<li>\n<p>Proactively communicate CMC regulatory strategies, risks and key issues throughout the life cycle in a timely manner to project teams and other stakeholders.</p>\n</li>\n<li>\n<p>Represent department in cross-functional project teams.&nbsp;</p>\n</li>\n<li>\n<p>Participate in the regulatory process initiatives and improvement activities.</p>\n</li>\n</ul>\n<p><strong>Required Skills, Experience, and Education:</strong><strong>&nbsp;</strong></p>\n<ul>\n<li>\n<p>BA/BS degree in Pharmaceutical Science, Chemistry, Chemical Engineering, or closely related field.</p>\n</li>\n<li>\n<p>7+ years of pharmaceutical / biotech drug development experience in CMC development of NCEs / small molecules with 3+ years of CMC regulatory experience.</p>\n</li>\n<li>\n<p>Experience in leading CMC related global submissions (IND, IMPD/CTA, NDA, MAA, etc.).</p>\n</li>\n<li>\n<p>Solid knowledge of US and international GMP quality regulations, current industry practices, and experience with interpretation and application to development projects and marketed product regulatory issues.</p>\n</li>\n<li>\n<p>Demonstrated experience in effective collaboration with internal and external stakeholders.</p>\n</li>\n<li>\n<p>Ability to prioritize and manage multiple projects simultaneously in a dynamic company environment.</p>\n</li>\n<li>\n<p>Effective written and verbal communication skills and good interpersonal skills.</p>\n</li>\n</ul>\n<p><strong>&nbsp;</strong><strong>Preferred Skills:</strong></p>\n<ul>\n<li>\n<p>Advanced degree in Pharmaceutical Science, Chemistry, Chemical Engineering, or closely related field.</p>\n</li>\n<li>\n<p>Hands on experience managing CMC submissions supporting global trials (US, EU, APAC, LATAM).</p>\n</li>\n<li>\n<p>A collaborative team player who adapts quickly to new challenges with proven ability to thrive in a fast-paced environment, with a hands-on and result-driven approach and a strategic mindset.</p>\n</li>\n</ul>\n<p class=\"p1\"><span style=\"color: rgb(255, 255, 255);\">#LI-Hybrid #LI-CT1</span></p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The base pay salary range for this full-time position for candidates working onsite at our headquarters in Redwood City, CA is listed below. The range displayed on each job posting is intended to be the base pay salary range for an individual working onsite in Redwood City and will be adjusted for the local market a candidate is based in. Our base pay salary ranges are determined by role, level, and location. Individual base pay salary is determined by multiple factors, including job-related skills, experience, market dynamics, and relevant education or training.</p>\n<p>Please note that base pay salary range is one part of the overall total rewards program at RevMed, which includes competitive cash compensation, robust equity awards, strong benefits, and significant learning and development opportunities.</p>\n<p>Revolution Medicines is an equal opportunity employer and prohibits unlawful discrimination based on race, color, religion, gender, sexual orientation, gender identity/expression, national origin/ancestry, age, disability, marital status, medical condition, and veteran status.</p>\n<p>Revolution Medicines takes protection and security of personal data very seriously and respects your right to privacy while using our website and when contacting us by email or phone. We will only collect, process and use any personal data that you provide to us in accordance with our&nbsp;<a href=\"https://www.revmed.com/ccpa-notice\">CCPA Notice</a>&nbsp;and&nbsp;<a href=\"https://www.revmed.com/privacy-policy\">Privacy Policy</a>.&nbsp;For additional information, please contact&nbsp;<a href=\"mailto:privacy@revmed.com\">privacy@revmed.com</a>.</p></div><div class=\"title\">Base Pay Salary Range</div><div class=\"pay-range\"><span>$158,000</span><span class=\"divider\">&mdash;</span><span>$198,000 USD</span></div></div></div><div class=\"content-conclusion\"><hr>\n<p><em>We are aware of recent recruitment scams in which individuals or organizations falsely represent themselves as being affiliated with Revolution Medicines. These scams may appear as false job advertisements or unsolicited contacts through communication or chat platforms, email, phone, or text message.</em><br><em>&nbsp;</em><br><em>Please note that Revolution Medicines does not extend unsolicited employment offers and will never ask candidates to provide financial information, purchase equipment, or pay fees as part of the hiring process. All legitimate communication from Revolution Medicines will come from an official <strong>@revmed.com</strong> email address.</em><br><em>&nbsp;</em><br><em>If you believe you’ve been contacted by someone impersonating a Revolution Medicines recruiter, please report it to <span style=\"color: rgb(35, 111, 161);\"><strong>careers@revmed.com</strong></span> so we can share these impersonations with our IT team for tracking and awareness.</em></p>\n<hr>\n<p>&nbsp;</p></div>"
+  },
+  {
+    "title": "Senior Scientist I, Analytical Development",
+    "company": "Revolution Medicines",
+    "url": "https://www.revmed.com/careers-list/?gh_jid=7583466003",
+    "location": "Redwood City, California, United States",
+    "department": "Pharmaceutical Development & Manufacturing  (PDM)",
+    "date_posted": "2026-03-02T15:12:19-05:00",
+    "source": "greenhouse:revolutionmedicines",
+    "description": "<p>Revolution Medicines is a clinical-stage precision oncology company focused on developing novel targeted therapies to inhibit frontier targets in RAS-addicted cancers.&nbsp; The company’s R&amp;D pipeline comprises RAS(ON) Inhibitors designed to suppress diverse oncogenic variants of RAS proteins, and RAS Companion Inhibitors for use in combination treatment strategies. As a new member of the Revolution Medicines team, you will join other outstanding Revolutionaries&nbsp;in a tireless commitment to patients with cancers harboring mutations in the RAS signaling pathway.</p>\n<p><strong>The Opportunity:</strong></p>\n<p>Playing a critical role within CMC function, as Senior Scientist I, Analytical Development the position will support the manufacturing and control of drug substances and drug products during clinical development. The position will provide analytical support to API process research and development, formulation development, and assist in regulatory filings in support of Revolution Medicines pipeline compound development and clinical programs.</p>\n<p>Specifically, you will be responsible for:</p>\n<ul>\n<li>\n<p>Provide support and oversight to analytical development activities, such as method development, method validation and testing, at contract partner sites to ensure outsourced activities are executed successfully and meet the objectives.</p>\n</li>\n<li>\n<p>Provide analytical support for API process R&amp;D and manufacturing, formulation development and drug product manufacturing, and participate in cross-functional project team meetings.</p>\n</li>\n<li>\n<p>Critically review data packages associated with method validations, release testing, and other characterization testing for drug substances and drug products.</p>\n</li>\n<li>\n<p>Collaborate with cross functional teams in the establishment of control strategy and setting specifications for drug substances and drug products.</p>\n</li>\n<li>\n<p>Prepare, review, and/or approve study protocols, study reports, and CMC regulatory submission document.</p>\n</li>\n<li>\n<p>Communicate technical findings to colleagues and collaborators within formal and informal settings, including cross-functional project team meetings.</p>\n</li>\n<li>\n<p>Collaborate with cross functional teams including but not limited to Medicinal Chemistry, DMPK, Toxicology, QA, Pharmaceutical Development, Process R&amp;D, Project Management and Regulatory to timely achieve project goals.</p>\n</li>\n<li>\n<p>Present work and results in team and group meetings.</p>\n</li>\n</ul>\n<p><strong>Required Skills, Experience and Education:</strong></p>\n<ul>\n<li>\n<p>Ph.D. with a min of 5 years industry experience or MS degree with a min of 8 years of relevant industrial experience in analytical development.</p>\n</li>\n<li>\n<p>Technical knowledge of analytical technologies including HPLC/UPLC, XRPD, LCMS, DSC, DVS and Dissolution.</p>\n</li>\n<li>\n<p>Experience managing projects at CROs/CDMOs.</p>\n</li>\n<li>\n<p>Experience with analytical method development, validation and method transfer.</p>\n</li>\n<li>\n<p>Work experience and knowledge of regulatory submission (IND, IMPD, and / or NDA).</p>\n</li>\n<li>\n<p>Knowledge and understanding of current ICH guidelines, GMP guidelines, and related industry practices.</p>\n</li>\n<li>\n<p>Strong problem-solving skills with sound technically driven decision-making ability.</p>\n</li>\n<li>\n<p>Excellent scientific and business communication skills (verbal, written and technical), strong interpersonal/collaboration skills and planning skills.</p>\n</li>\n<li>\n<p>Ability to think critically and creatively and be able to work independently to determine appropriate resources for resolution of problems.</p>\n</li>\n<li>\n<p>Ability to multi-task and thrive in a fast-paced innovative environment.</p>\n</li>\n</ul>\n<p><strong>Preferred Skills:</strong></p>\n<ul>\n<li>\n<p>PhD or MS in analytical chemistry, organic chemistry, or related discipline.</p>\n</li>\n<li>\n<p>CMC experience with small Molecules is strongly desired, and experience in solid oral dosage is a plus.</p>\n</li>\n<li>\n<p>Familiarity with document management systems (such as Veeva or similar). <span style=\"color: rgb(255, 255, 255);\">#LI-Hybrid #LI-CT1</span></p>\n</li>\n</ul><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The base pay salary range for this full-time position for candidates working onsite at our headquarters in Redwood City, CA is listed below. The range displayed on each job posting is intended to be the base pay salary range for an individual working onsite in Redwood City and will be adjusted for the local market a candidate is based in. Our base pay salary ranges are determined by role, level, and location. Individual base pay salary is determined by multiple factors, including job-related skills, experience, market dynamics, and relevant education or training.</p>\n<p>Please note that base pay salary range is one part of the overall total rewards program at RevMed, which includes competitive cash compensation, robust equity awards, strong benefits, and significant learning and development opportunities.</p>\n<p>Revolution Medicines is an equal opportunity employer and prohibits unlawful discrimination based on race, color, religion, gender, sexual orientation, gender identity/expression, national origin/ancestry, age, disability, marital status, medical condition, and veteran status.</p>\n<p>Revolution Medicines takes protection and security of personal data very seriously and respects your right to privacy while using our website and when contacting us by email or phone. We will only collect, process and use any personal data that you provide to us in accordance with our&nbsp;<a href=\"https://www.revmed.com/ccpa-notice\">CCPA Notice</a>&nbsp;and&nbsp;<a href=\"https://www.revmed.com/privacy-policy\">Privacy Policy</a>.&nbsp;For additional information, please contact&nbsp;<a href=\"mailto:privacy@revmed.com\">privacy@revmed.com</a>.</p></div><div class=\"title\">Base Pay Salary Range</div><div class=\"pay-range\"><span>$149,000</span><span class=\"divider\">&mdash;</span><span>$186,000 USD</span></div></div></div><div class=\"content-conclusion\"><hr>\n<p><em>We are aware of recent recruitment scams in which individuals or organizations falsely represent themselves as being affiliated with Revolution Medicines. These scams may appear as false job advertisements or unsolicited contacts through communication or chat platforms, email, phone, or text message.</em><br><em>&nbsp;</em><br><em>Please note that Revolution Medicines does not extend unsolicited employment offers and will never ask candidates to provide financial information, purchase equipment, or pay fees as part of the hiring process. All legitimate communication from Revolution Medicines will come from an official <strong>@revmed.com</strong> email address.</em><br><em>&nbsp;</em><br><em>If you believe you’ve been contacted by someone impersonating a Revolution Medicines recruiter, please report it to <span style=\"color: rgb(35, 111, 161);\"><strong>careers@revmed.com</strong></span> so we can share these impersonations with our IT team for tracking and awareness.</em></p>\n<hr>\n<p>&nbsp;</p></div>"
+  },
+  {
+    "title": "Senior Scientist",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-in-waco-tx-jid-25244",
+    "location": "Waco, TX",
+    "department": "Operations",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "PurposeSenior leader in QC laboratory performing, leading, analyzing and/or documenting laboratory tests within a GMP environment in support of one or more of the following areas; raw materials, in-pr"
+  },
+  {
+    "title": "Scientist, Eye Care",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/scientist-eye-care-in-north-chicago-il-jid-25149",
+    "location": "North Chicago, IL",
+    "department": "Corporate",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "Key ResponsibilitiesLead manufacturing projects to enhance process efficiency, yield, quality, cycle time, & cost reduction.Utilize statistical process control to monitor performance & develop plans t"
+  },
+  {
+    "title": "Senior Scientist I, Histology",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-i-histology-in-north-chicago-il-jid-25268",
     "location": "North Chicago, IL",
     "department": "Research & Development",
     "date_posted": null,
     "source": "attrax:abbvie",
-    "description": "AbbVie Analytical Research & Development (Analytical R&D) is a global analytical scientific organization responsible for all CMC analytical activities related to the development of AbbVie's pharmaceut"
+    "description": "We are seeking a highly motivated histology Senior Scientist who will design, execute, and communicate novel multi-disciplinary research in a highly collaborative Neuroscience research team. Primary r"
   },
   {
-    "title": "Scientist, Predictive Biology and AI",
+    "title": "Scientist II - Senior Scientist I, Analytical R&D (Electrophoresis SME)",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/scientist-ii-senior-scientist-i-analytical-r-and-d-electrophoresis-sme-in-north-chicago-il-jid-25235",
+    "location": "North Chicago, IL",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "Group Overview:"
+  },
+  {
+    "title": "Scientist I, Cellular Immunology",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/scientist-i-cellular-immunology-in-worcester-ma-jid-25265",
+    "location": "Worcester, MA",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "We are seeking a highly motivated and talented Scientist to join our Dermatology team in Discovery Research Immunology located in Worcester, MA. The successful candidate will play a key role in execut"
+  },
+  {
+    "title": "Senior Scientist II, Informatics",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-ii-informatics-in-worcester-ma-jid-25145",
+    "location": "Worcester, MA",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "We seek a talented and highly motivated Data Scientist with experience in image analysis to join our expanding Spatialomics team within the Discovery Immunology Pathology group. In this role, you will"
+  },
+  {
+    "title": "Senior Scientist II, Histology",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-ii-histology-in-north-chicago-il-jid-25269",
+    "location": "North Chicago, IL",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "We are seeking a highly motivated Histological Leader who will design, execute, and communicate novel multi-disciplinary research in a highly collaborative Neuroscience research team. Primary responsi"
+  },
+  {
+    "title": "Scientist l, PDS&T",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/scientist-l-pds-and-t-in-north-chicago-il-jid-25128",
+    "location": "North Chicago, IL",
+    "department": "Operations",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "Investigate, identify, develop, and optimize new methods and techniques to generate reliable and reproducible data in a timely manner. Read and adapt scientific literature to accomplish assignments an"
+  },
+  {
+    "title": "Senior Scientist I, Peptide Optimization",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-i-peptide-optimization-in-madison-wi-jid-25274",
+    "location": "Madison, WI",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "Discover and optimize peptide therapeutics against high-value biological targets. Work on a cross-functional team that leverages cutting edge (bio)chemical, biophysical, and computational tools. Serve"
+  },
+  {
+    "title": "Principal Scientist I, Immunology/Dermatology",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/principal-scientist-i-immunology-dermatology-in-north-chicago-il-jid-25151",
+    "location": "North Chicago, IL",
+    "department": "Commercial",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "Key ResponsibilitiesAct as a principal investigator, generate & lead original ideas, strategies, & new scientific proposals in the area of inflammatory skin diseases with the use of complex human mode"
+  },
+  {
+    "title": "Sr. Scientist I, Brain Transport Biology",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/sr-scientist-i-brain-transport-biology-in-cambridge-ma-jid-24010",
+    "location": "Cambridge, MA",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "The Discovery Neuroscience In Vivo Pharmacology group in Cambridge, Massachusetts, is seeking a highly skilled and self-motivated scientist to join a dynamic team supporting target identification, val"
+  },
+  {
+    "title": "Scientist II, Complex In Vitro Models",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/scientist-ii-complex-in-vitro-models-in-worcester-ma-jid-25181",
+    "location": "Worcester, MA",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "AbbVie is seeking an experienced scientist to join our Immunology team to develop, characterize, and qualify complex in vitro models (CIVMs). This lab-based individual will be responsible for duties t"
+  },
+  {
+    "title": "Senior Scientist II - Preclinical Primate Immunology",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-ii-preclinical-primate-immunology-in-north-chicago-il-jid-25182",
+    "location": "North Chicago, IL",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "AbbVie’s Immunology Discovery Research group is seeking a highly motivated and experienced in vivo and in vitro cellular immunologist to lead development of pharmacodynamic endpoints in non-human prim"
+  },
+  {
+    "title": "Senior Scientist II â CMC Developmental Sciences",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-ii-cmc-developmental-sciences-in-south-san-francisco-ca-jid-24995",
+    "location": "South San Francisco, CA",
+    "department": "Corporate",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "Key ResponsibilitiesPerform on various aspects of hands-on CHO cell line development, characterization studies, cell culture process development or protein purification in a well-supported and dynamic"
+  },
+  {
+    "title": "Senior Scientist II, Occupational & Environmental Toxicologist",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-ii-occupational-and-environmental-toxicologist-in-north-chicago-il-jid-25204",
+    "location": "North Chicago, IL",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "Genetic, Environmental, and Occupational Toxicology (GEO Tox) is a diverse team of scientists with the goals of supporting patient, environmental, and employee safety. The candidate will complete risk"
+  },
+  {
+    "title": "Senior Scientist I, In Vivo (Respiratory Focus)",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-i-in-vivo-respiratory-focus-in-cambridge-ma-jid-25234",
+    "location": "Cambridge, MA",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "AbbVie’s Immunology R&D organization is expanding its early discovery team to be split between the Cambridge Research Center in Cambridge, MA and the AbbVie Bioresearch Center in Worcester, MA. We are"
+  },
+  {
+    "title": "Scientist I - Product Development Science & Technology, API",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/scientist-i-product-development-science-and-technology-api-in-north-chicago-il-jid-25152",
+    "location": "North Chicago, IL",
+    "department": "Corporate",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "Key ResponsibilitiesSupport commercial product manufacturing & pipeline product development.Develop scalable & robust engineering processes for key modalities (e.g., small molecule APIs, antibody drug"
+  },
+  {
+    "title": "Senior Scientist I - II, Analytical R&D (Lipids SME)",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-i-ii-analytical-r-and-d-lipids-sme-in-north-chicago-il-jid-25236",
+    "location": "North Chicago, IL",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "Group Overview:"
+  },
+  {
+    "title": "Principal Research Scientist I - Biologics Analytical Research and Development, CMC Biologics Development",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/principal-research-scientist-i-biologics-analytical-research-and-development-cmc-biologics-developme-in-north-chicago-il-jid-24186",
+    "location": "North Chicago, IL",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "AbbVie Biologics Analytical Research & Development (Biologics Analytical R&D) is a global analytical sciences organization responsible for all CMC analytical activities related to the development of A"
+  },
+  {
+    "title": "Software Developer / Senior Scientist I/II for Laboratory Automation (Robotics Applications) (all genders) (full-time,permanent)",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/software-developer-senior-scientist-i-ii-for-laboratory-automation-robotics-applications-all-genders-in-ludwigshafen-rp-jid-19208",
+    "location": "Ludwigshafen, RP",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "The job that makes possibilities real in patients' lives. And yours.The job that helps you get ahead in life. Moving mountains together.Welcome to AbbVie! As part of an international company with 48,0"
+  },
+  {
+    "title": "Feb. 26, 2026Specialist Quality Assurance - Drug ProductUS - California - Thousand Oaks",
+    "company": "Amgen",
+    "url": "https://careers.amgen.com/en/job/thousand-oaks/specialist-quality-assurance-drug-product/87/92166472864",
+    "location": "Specialist Quality Assurance - Drug Product",
+    "department": "",
+    "date_posted": "Feb. 26, 2026",
+    "source": "talentbrew:amgen",
+    "description": ""
+  },
+  {
+    "title": "Manager, Drug Product – WCL (Warehouse Cryogenics and Logistics)",
     "company": "Bristol Myers Squibb",
-    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/Seattle-400-Dexter---WA---US/Scientist--Predictive-Biology-and-AI_R1596767",
-    "location": "5 Locations",
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/Cruiserath---IE/Manager--Drug-Product---WCL--Warehouse-Cryogenics-and-Logistics-_R1599213",
+    "location": "Cruiserath - IE",
     "department": "",
     "date_posted": "Posted Yesterday",
     "source": "workday:bristolmyerssquibb",
-    "description": "R1596767"
+    "description": "R1599213"
   },
   {
-    "title": "Assistant Scientist, Lab Operations",
+    "title": "Sr. Scientist, Radiopharmaceutical Development",
     "company": "Bristol Myers Squibb",
-    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/Seattle-400-Dexter---WA---US/Assistant-Scientist--Lab-Operations_R1599106",
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/San-Diego---RayzeBio---CA/Sr-Scientist--Radiopharmaceutical-Development_R1598274",
+    "location": "San Diego - RayzeBio - CA",
+    "department": "",
+    "date_posted": "Posted 4 Days Ago",
+    "source": "workday:bristolmyerssquibb",
+    "description": "R1598274"
+  },
+  {
+    "title": "Senior Scientist, Discovery BioSciences Oncology",
+    "company": "Bristol Myers Squibb",
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/Cambridge-Crossing---MA---US/Senior-Scientist--Discovery-BioSciences-Oncology_R1598206",
+    "location": "Cambridge Crossing - MA - US",
+    "department": "",
+    "date_posted": "Posted Yesterday",
+    "source": "workday:bristolmyerssquibb",
+    "description": "R1598206"
+  },
+  {
+    "title": "Principal Scientist Computational Biology",
+    "company": "Bristol Myers Squibb",
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/Cambridge-Crossing---MA---US/Principal-Scientist_R1596679",
+    "location": "Cambridge Crossing - MA - US",
+    "department": "",
+    "date_posted": "Posted 4 Days Ago",
+    "source": "workday:bristolmyerssquibb",
+    "description": "R1596679"
+  },
+  {
+    "title": "Senior Scientist, Cell Therapy TRC In Vivo Pharmacology",
+    "company": "Bristol Myers Squibb",
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/Seattle-400-Dexter---WA---US/Senior-Scientist--Cell-Therapy-TRC-In-Vivo-Pharmacology_R1599506",
     "location": "Seattle 400 Dexter - WA - US",
     "department": "",
-    "date_posted": "Posted Today",
+    "date_posted": "Posted 6 Days Ago",
     "source": "workday:bristolmyerssquibb",
-    "description": "R1599106"
+    "description": "R1599506"
   },
   {
-    "title": "Scientist, Biologics Development Lab Operations",
+    "title": "Scientist, Bioassay Development",
     "company": "Bristol Myers Squibb",
-    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/New-Brunswick---NJ---US/Scientist--Biologics-Development-Lab-Operations_R1599492",
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/New-Brunswick---NJ---US/Scientist--Bioassay-Development_R1599720",
     "location": "New Brunswick - NJ - US",
     "department": "",
     "date_posted": "Posted Today",
     "source": "workday:bristolmyerssquibb",
-    "description": "R1599492"
+    "description": "R1599720"
   }
 ]
