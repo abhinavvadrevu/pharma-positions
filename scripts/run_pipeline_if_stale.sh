@@ -2,22 +2,24 @@
 #
 # run_pipeline_if_stale.sh
 #
-# Checks if the job discovery pipeline was last run more than 12 hours ago.
+# Checks if the job discovery pipeline was last run more than 6 hours ago.
 # If so, invokes cortex to run the full pipeline.
 # Sends email notification on errors.
 #
 # Usage:
-#   ./scripts/run_pipeline_if_stale.sh
+#   ./scripts/run_pipeline_if_stale.sh           # Normal run with staleness check
+#   ./scripts/run_pipeline_if_stale.sh --force   # Skip staleness check, run immediately
 #
-# Cron (every 12 hours at 8am and 8pm):
-#   0 8,20 * * * "/Users/avadrevu/workspace/pharma positions/scripts/run_pipeline_if_stale.sh" >> ~/pharma-pipeline.log 2>&1
+# Cron (every 6 hours):
+#   0 */6 * * * "/Users/avadrevu/workspace/pharma positions/scripts/run_pipeline_if_stale.sh" >> ~/pharma-pipeline.log 2>&1
 
 set -eE  # Exit on error, inherit ERR trap in functions
 
 REPO_DIR="/Users/avadrevu/workspace/pharma positions"
 DISCOVERY_LOG="$REPO_DIR/job-discovery/data/discovery_log.jsonl"
 LOG_FILE="$HOME/pharma-pipeline.log"
-STALE_HOURS=12
+STALE_HOURS=6
+FORCE_RUN=false
 
 # Email settings
 NOTIFY_EMAIL="abhinavvadrevu1@gmail.com"
@@ -137,31 +139,51 @@ format_duration() {
 
 # Main
 main() {
+    # Parse arguments
+    while [[ $# -gt 0 ]]; do
+        case "$1" in
+            --force|-f)
+                FORCE_RUN=true
+                shift
+                ;;
+            *)
+                echo "Unknown option: $1"
+                echo "Usage: $0 [--force|-f]"
+                exit 1
+                ;;
+        esac
+    done
+
     echo ""
     echo "=========================================="
     echo "  Pharma Job Pipeline Scheduler"
     echo "  $(date '+%Y-%m-%d %H:%M:%S')"
     echo "=========================================="
     echo ""
-    echo "Checking last run time..."
     
-    last_run=$(get_last_run_timestamp)
-    now=$(date +%s)
-    age=$((now - last_run))
-    
-    if [[ $last_run -eq 0 ]]; then
-        echo "No previous run found. Running pipeline..."
+    if [[ "$FORCE_RUN" == "true" ]]; then
+        echo "Force mode enabled. Skipping staleness check."
     else
-        echo "Last run: $(format_duration $age) ago"
-        echo "Threshold: ${STALE_HOURS}h"
+        echo "Checking last run time..."
         
-        if ! is_stale $last_run; then
-            echo "Pipeline is fresh. Skipping."
-            echo ""
-            exit 0
+        last_run=$(get_last_run_timestamp)
+        now=$(date +%s)
+        age=$((now - last_run))
+        
+        if [[ $last_run -eq 0 ]]; then
+            echo "No previous run found. Running pipeline..."
+        else
+            echo "Last run: $(format_duration $age) ago"
+            echo "Threshold: ${STALE_HOURS}h"
+            
+            if ! is_stale $last_run; then
+                echo "Pipeline is fresh. Skipping."
+                echo ""
+                exit 0
+            fi
+            
+            echo "Pipeline is stale. Running..."
         fi
-        
-        echo "Pipeline is stale. Running..."
     fi
     
     echo ""

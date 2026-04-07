@@ -85,9 +85,67 @@ for reason, count in summary.items():
 "
 ```
 
-## Step 3: LLM Evaluation (YOU DO THIS)
+## Step 3: LLM Evaluation with Incremental Saving
 
-Read `data/candidates.json` and evaluate EACH job against this profile:
+**IMPORTANT: This step saves progress after EACH candidate. If interrupted, it will resume from where it left off.**
+
+### Step 3a: Get Remaining Candidates
+
+First, run this script to get candidates that haven't been evaluated yet:
+
+```bash
+cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
+.venv/bin/python -c "
+import json
+from pathlib import Path
+from src.storage import load_seen_urls, normalize_url
+
+data_dir = Path('data')
+
+# Load all candidates
+with open(data_dir / 'candidates.json') as f:
+    all_candidates = json.load(f)
+
+# Filter out already-evaluated candidates
+seen_urls = set(load_seen_urls(data_dir).keys())
+remaining = []
+for i, c in enumerate(all_candidates):
+    if normalize_url(c['url']) not in seen_urls:
+        remaining.append({'index': i, **c})
+
+print(f'Total candidates: {len(all_candidates)}')
+print(f'Already evaluated: {len(all_candidates) - len(remaining)}')
+print(f'Remaining to evaluate: {len(remaining)}')
+
+# Save remaining candidates for evaluation
+with open(data_dir / 'remaining_candidates.json', 'w') as f:
+    json.dump(remaining, f, indent=2)
+
+if not remaining:
+    print('\\n✅ All candidates already evaluated!')
+"
+```
+
+If there are remaining candidates, proceed to Step 3b. If all are evaluated, skip to Step 5.
+
+### Step 3b: Evaluate Each Candidate (ONE AT A TIME)
+
+Read `data/remaining_candidates.json` and evaluate candidates **one at a time**.
+
+⚠️ **CRITICAL: DO NOT BATCH OR PARALLELIZE EVALUATIONS** ⚠️
+- Evaluate exactly ONE candidate per response
+- Run the save script ONCE per candidate
+- Do NOT create scripts that loop through multiple candidates
+- Do NOT run multiple save scripts in parallel
+- This ensures progress is saved and visible after each candidate
+
+**For EACH candidate**, you must:
+1. Read the job details and description
+2. Make your FIT / NOT A FIT decision
+3. Determine is_bay_area (true/false)
+4. **Immediately run the save script below** (with that ONE candidate's values)
+5. Wait for the script to complete and show output
+6. Then move to the next candidate
 
 ### Candidate Profile
 
@@ -117,69 +175,124 @@ EDUCATION: PhD with ~2+ years industry experience (flexible)
 
 ### Bay Area Classification
 
-For EACH job you evaluate, also determine `is_bay_area` (true/false):
-
-**Bay Area = TRUE** if the location is in the SF Bay Area:
+**Bay Area = TRUE** if location is in SF Bay Area:
 - San Francisco, South San Francisco, Daly City, Brisbane
 - Peninsula: San Mateo, Redwood City, Palo Alto, Menlo Park, Foster City, San Carlos
 - South Bay: San Jose, Sunnyvale, Santa Clara, Mountain View, Cupertino, Milpitas, Fremont
 - East Bay: Oakland, Berkeley, Emeryville, Alameda, Hayward, Union City, Pleasanton, Dublin
 - North Bay: San Rafael, Novato, Mill Valley
 
-**Bay Area = FALSE** if:
-- Location is elsewhere (e.g., "Boston, MA", "San Diego, CA", "Remote")
-- Location is unspecified or unclear
+**Bay Area = FALSE** if: elsewhere, remote, or unspecified
 
-### Evaluation Process
+### Step 3c: Save Script (RUN AFTER EACH EVALUATION)
 
-1. Read candidates.json
-2. For each job, read title + company + location + description
-3. Decide: fit or not-fit
-4. Determine: is_bay_area true or false
-5. Collect all fits into a list with their is_bay_area values
-
-## Step 4: Save Results
-
-After evaluating, save matches. For each matched job, include `is_bay_area`:
+After evaluating EACH candidate, immediately run this script to save progress:
 
 ```bash
 cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
 .venv/bin/python -c "
 import json
 from pathlib import Path
+from src.storage import save_matched_jobs, mark_seen, get_all_matches
 
 data_dir = Path('data')
 
-# Load candidates that were evaluated
-with open(data_dir / 'candidates.json') as f:
-    candidates = json.load(f)
+# Load the candidate being evaluated
+with open(data_dir / 'remaining_candidates.json') as f:
+    remaining = json.load(f)
 
-# YOU MUST REPLACE THIS with the actual matched jobs
-# Each entry needs: all original fields PLUS is_bay_area
-# Example:
-# matched_jobs = [
-#     {**candidates[0], 'is_bay_area': True},
-#     {**candidates[2], 'is_bay_area': False},
-#     {**candidates[5], 'is_bay_area': True},
-# ]
-matched_jobs = []  # <-- FILL THIS IN
+# === FILL IN THESE VALUES ===
+candidate_index = 0  # <-- Index in remaining_candidates.json (0, 1, 2, ...)
+is_fit = False       # <-- True if FIT, False if NOT A FIT
+is_bay_area = False  # <-- True if Bay Area, False otherwise
+# ============================
 
-from src.storage import save_matched_jobs, mark_seen
+candidate = remaining[candidate_index]
+total_remaining = len(remaining)
 
-if matched_jobs:
-    save_matched_jobs(matched_jobs, data_dir)
-    print(f'Saved {len(matched_jobs)} matched jobs to jobs.json and data.js')
+# Save if it's a fit
+if is_fit:
+    job_with_bay_area = {**candidate, 'is_bay_area': is_bay_area}
+    del job_with_bay_area['index']  # Remove the index field
+    save_matched_jobs([job_with_bay_area], data_dir)
+    bay_tag = ' (Bay Area)' if is_bay_area else ''
+    print(f'[{candidate_index + 1}/{total_remaining}] ✅ FIT{bay_tag}: {candidate[\"title\"]} @ {candidate[\"company\"]}')
 else:
-    print('No matching jobs this run')
+    print(f'[{candidate_index + 1}/{total_remaining}] ❌ SKIP: {candidate[\"title\"]} @ {candidate[\"company\"]}')
 
-# Mark ALL candidates as seen
-all_urls = [c['url'] for c in candidates]
-mark_seen(all_urls, data_dir)
-print(f'Marked {len(all_urls)} URLs as seen')
+# Mark URL as seen (whether fit or not)
+mark_seen([candidate['url']], data_dir)
 
+# Progress summary
+total_matches = len(get_all_matches(data_dir))
+evaluated = candidate_index + 1
+print(f'    Progress: {evaluated}/{total_remaining} evaluated, {total_matches} total matches')
+"
+```
+
+**Repeat Step 3c for each candidate** in `remaining_candidates.json`, incrementing `candidate_index` each time.
+
+⚠️ **REMINDER: ONE candidate at a time. Do NOT batch. Do NOT parallelize. Do NOT loop in Python.**
+
+### Step 3d: Evaluation Complete
+
+After all candidates are evaluated, run this to confirm:
+
+```bash
+cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
+.venv/bin/python -c "
+import json
+from pathlib import Path
+from src.storage import get_all_matches, load_seen_urls, normalize_url
+
+data_dir = Path('data')
+
+# Check completion
+with open(data_dir / 'candidates.json') as f:
+    all_candidates = json.load(f)
+
+seen_urls = set(load_seen_urls(data_dir).keys())
+remaining = [c for c in all_candidates if normalize_url(c['url']) not in seen_urls]
+
+if remaining:
+    print(f'⚠️  {len(remaining)} candidates still need evaluation')
+else:
+    print('✅ All candidates evaluated!')
+
+# Summary
+total_matches = len(get_all_matches(data_dir))
+print(f'Total matches in jobs.json: {total_matches}')
+"
+```
+
+## Step 4: Get New Matches for Notification
+
+Get the list of jobs that were matched in this run (for notification):
+
+```bash
+cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
+.venv/bin/python -c "
+import json
+from pathlib import Path
+from datetime import datetime, timezone, timedelta
+
+data_dir = Path('data')
+
+# Get jobs matched in the last hour (this run)
 from src.storage import get_all_matches
-total = len(get_all_matches(data_dir))
-print(f'Total matches in jobs.json: {total}')
+all_matches = get_all_matches(data_dir)
+
+cutoff = (datetime.now(timezone.utc) - timedelta(hours=1)).isoformat()
+new_matches = [j for j in all_matches if j.get('date_found', '') >= cutoff]
+
+print(f'New matches this run: {len(new_matches)}')
+for j in new_matches:
+    bay_tag = ' (Bay Area)' if j.get('is_bay_area') else ''
+    print(f'  - {j[\"title\"]} @ {j[\"company\"]}{bay_tag}')
+
+# Save for notification step
+with open(data_dir / 'new_matches.json', 'w') as f:
+    json.dump(new_matches, f, indent=2)
 "
 ```
 
@@ -199,15 +312,21 @@ import json
 from pathlib import Path
 from src.notify import run_notifications
 
-# YOU MUST REPLACE THIS with the same matched_jobs list from Step 4
-matched_jobs = []  # <-- FILL THIS IN (same list as Step 4)
+data_dir = Path('data')
 
-results = run_notifications(matched_jobs)
+# Load new matches from Step 4
+with open(data_dir / 'new_matches.json') as f:
+    matched_jobs = json.load(f)
 
-# Report results
-for name, result in results.items():
-    status = '✓' if result['success'] else '✗'
-    print(f'{status} {name}: {result[\"message\"]}')
+if not matched_jobs:
+    print('No new matches to notify about')
+else:
+    results = run_notifications(matched_jobs)
+    
+    # Report results
+    for name, result in results.items():
+        status = '✓' if result['success'] else '✗'
+        print(f'{status} {name}: {result[\"message\"]}')
 "
 ```
 
@@ -228,9 +347,18 @@ When user says "run the job discovery pipeline":
 
 1. **Run** Step 1 (discovery script)
 2. **Run** Step 2 (cheap filters script)  
-3. **Do** Step 3 (read candidates.json, evaluate each job yourself, classify Bay Area)
-4. **Run** Step 4 (save script with your matched jobs including is_bay_area)
-5. **Run** Step 5 (notify script with same matched jobs - ONLY if there were matches)
+3. **Do** Step 3:
+   - 3a: Get remaining candidates (resumes from where you left off)
+   - 3b: Read ONE candidate's details
+   - 3c: **Run save script for that ONE candidate** → see progress output
+   - **Repeat 3b-3c for each remaining candidate** (do NOT batch or parallelize!)
+   - 3d: Confirm all evaluated
+4. **Run** Step 4 (get new matches for notification)
+5. **Run** Step 5 (notify - ONLY if there were matches)
 6. **Report** final counts
+
+⚠️ **CRITICAL**: Step 3 must be done ONE CANDIDATE AT A TIME. Each evaluation = one save script call = one progress line. Do NOT write Python loops or batch multiple candidates. This is intentional to prevent timeouts and ensure incremental saving.
+
+**INCREMENTAL SAVING:** Progress is saved after each candidate. If interrupted, re-run the pipeline and it will resume from where it left off.
 
 **DO NOT stop early. The pipeline is not complete until notifications are sent (if there were matches).**
