@@ -1153,5 +1153,50 @@
     "source": "attrax:abbvie",
     "notified": false,
     "notified_at": null
+  },
+  {
+    "id": "7aaa9af7-91d2-414f-965d-6ff3d8796ce3",
+    "company": "Tris Pharma",
+    "title": "PD Senior Scientist I/II",
+    "url": "https://www.biospace.com/job/3038032/pd-senior-scientist-i-ii/",
+    "location": "Monmouth Junction, NJ",
+    "is_bay_area": false,
+    "department": "",
+    "description": "Tris Pharma, Inc. (www.trispharma.com) is a leading privately-owned U.S. biopharmaceutical company with a focus on development and commercializatio...",
+    "date_posted": null,
+    "date_found": "2026-04-08T00:40:22.414845+00:00",
+    "source": "biospace",
+    "notified": false,
+    "notified_at": null
+  },
+  {
+    "id": "a98347a9-f37d-4937-ac51-702dd1aaaa4a",
+    "company": "GenScript",
+    "title": "Formulation Scientist",
+    "url": "https://www.biospace.com/job/3038399/formulation-scientist/",
+    "location": "Redmond, Washington",
+    "is_bay_area": false,
+    "department": "",
+    "description": "GenScript Biotech Corporation (Stock Code: 1548.HK) is a global biotechnology group. Founded in 2002, GenScript has an establishe...",
+    "date_posted": null,
+    "date_found": "2026-04-08T00:40:30.020279+00:00",
+    "source": "biospace",
+    "notified": false,
+    "notified_at": null
+  },
+  {
+    "id": "4bf26352-8730-47f9-a829-328d3a9190b5",
+    "company": "Bristol Myers Squibb",
+    "title": "Principal Scientist, Pilot Plant Network and External Manufacturing",
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/Devens---MA---US/Principal-Scientist--Pilot-Plant-Network-and-External-Manufacturing_R1601083",
+    "location": "Devens - MA - US",
+    "is_bay_area": false,
+    "department": "",
+    "description": "R1601083",
+    "date_posted": "Posted Today",
+    "date_found": "2026-04-08T00:40:48.057180+00:00",
+    "source": "workday:bristolmyerssquibb",
+    "notified": false,
+    "notified_at": null
   }
 ]

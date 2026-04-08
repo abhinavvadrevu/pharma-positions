@@ -1138,5 +1138,50 @@
     "source": "greenhouse:revolutionmedicines",
     "notified": false,
     "notified_at": null
+  },
+  {
+    "id": "b52e250f-378d-4d27-aabd-265b26ec04b2",
+    "company": "AbbVie",
+    "title": "Senior Scientist I, Biologics Drug Product Development",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-i-biologics-drug-product-development-in-north-chicago-il-jid-26581",
+    "location": "North Chicago, IL",
+    "is_bay_area": false,
+    "department": "Research & Development",
+    "description": "PurposeBiologics Drug Product Development (Bio DPD), a part of Development Sciences within AbbVie’s R&D, is a global organization that is responsible for drug product formulation and process developme",
+    "date_posted": null,
+    "date_found": "2026-04-07T16:53:13.260307+00:00",
+    "source": "attrax:abbvie",
+    "notified": false,
+    "notified_at": null
+  },
+  {
+    "id": "7aaa9af7-91d2-414f-965d-6ff3d8796ce3",
+    "company": "Tris Pharma",
+    "title": "PD Senior Scientist I/II",
+    "url": "https://www.biospace.com/job/3038032/pd-senior-scientist-i-ii/",
+    "location": "Monmouth Junction, NJ",
+    "is_bay_area": false,
+    "department": "",
+    "description": "Tris Pharma, Inc. (www.trispharma.com) is a leading privately-owned U.S. biopharmaceutical company with a focus on development and commercializatio...",
+    "date_posted": null,
+    "date_found": "2026-04-08T00:40:22.414845+00:00",
+    "source": "biospace",
+    "notified": false,
+    "notified_at": null
+  },
+  {
+    "id": "a98347a9-f37d-4937-ac51-702dd1aaaa4a",
+    "company": "GenScript",
+    "title": "Formulation Scientist",
+    "url": "https://www.biospace.com/job/3038399/formulation-scientist/",
+    "location": "Redmond, Washington",
+    "is_bay_area": false,
+    "department": "",
+    "description": "GenScript Biotech Corporation (Stock Code: 1548.HK) is a global biotechnology group. Founded in 2002, GenScript has an establishe...",
+    "date_posted": null,
+    "date_found": "2026-04-08T00:40:30.020279+00:00",
+    "source": "biospace",
+    "notified": false,
+    "notified_at": null
   }
 ]
