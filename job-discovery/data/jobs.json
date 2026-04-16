@@ -1498,5 +1498,20 @@
     "source": "attrax:abbvie",
     "notified": false,
     "notified_at": null
+  },
+  {
+    "id": "351039ce-ebfa-4613-a808-e7e354db72aa",
+    "company": "Bristol Myers Squibb",
+    "title": "Scientist Exploratory Biopharmaceutics",
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/Moreton---GB/Scientist-Exploratory-Biopharmaceutics_R1601384",
+    "location": "Moreton - GB",
+    "is_bay_area": false,
+    "department": "",
+    "description": "R1601384",
+    "date_posted": "Posted Yesterday",
+    "date_found": "2026-04-16T14:31:05.626002+00:00",
+    "source": "workday:bristolmyerssquibb",
+    "notified": false,
+    "notified_at": null
   }
 ]
