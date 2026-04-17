@@ -1498,5 +1498,35 @@
     "source": "attrax:abbvie",
     "notified": false,
     "notified_at": null
+  },
+  {
+    "id": "351039ce-ebfa-4613-a808-e7e354db72aa",
+    "company": "Bristol Myers Squibb",
+    "title": "Scientist Exploratory Biopharmaceutics",
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/Moreton---GB/Scientist-Exploratory-Biopharmaceutics_R1601384",
+    "location": "Moreton - GB",
+    "is_bay_area": false,
+    "department": "",
+    "description": "R1601384",
+    "date_posted": "Posted Yesterday",
+    "date_found": "2026-04-16T14:31:05.626002+00:00",
+    "source": "workday:bristolmyerssquibb",
+    "notified": false,
+    "notified_at": null
+  },
+  {
+    "id": "5bab1555-029d-4add-bb7e-5ee02549061e",
+    "company": "Moderna, Inc.",
+    "title": "Engineer II, Drug Product Development",
+    "url": "https://www.biospace.com/job/3042904/engineer-ii-drug-product-development/",
+    "location": "Norwood, Massachusetts",
+    "is_bay_area": false,
+    "department": "",
+    "description": "The Role: We are seeking a highly skilled and motivated Engineer II in Drug Product Development, to work in a team developing Moderna’s device comb...",
+    "date_posted": null,
+    "date_found": "2026-04-17T14:11:53.128813+00:00",
+    "source": "biospace",
+    "notified": false,
+    "notified_at": null
   }
 ]
