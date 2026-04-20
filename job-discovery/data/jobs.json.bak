@@ -1528,5 +1528,35 @@
     "source": "biospace",
     "notified": false,
     "notified_at": null
+  },
+  {
+    "id": "ddc17295-c3b0-4a7f-a606-b31a1eec87b1",
+    "company": "Eli Lilly and Company",
+    "title": "Scientist/Engineer - Technical Services/Manufacturing Science (Filling)",
+    "url": "https://www.biospace.com/job/3042950/scientist-engineer-technical-services-manufacturing-science-filling-/",
+    "location": "Durham, North Carolina",
+    "is_bay_area": false,
+    "department": "",
+    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian...",
+    "date_posted": null,
+    "date_found": "2026-04-17T14:12:32.486458+00:00",
+    "source": "biospace",
+    "notified": false,
+    "notified_at": null
+  },
+  {
+    "id": "ddb40389-58bc-4c30-a608-dcadcb740b43",
+    "company": "Moderna, Inc.",
+    "title": "Principal Engineer, Drug Product, Global Engineering",
+    "url": "https://www.biospace.com/job/3043366/principal-engineer-drug-product-global-engineering/",
+    "location": "Norwood, Massachusetts",
+    "is_bay_area": false,
+    "department": "",
+    "description": "The Role: The Principal Engineer, Drug Product, will lead the design development, fabrication, and validation of drug product manufacturing process...",
+    "date_posted": null,
+    "date_found": "2026-04-20T02:05:19.134706+00:00",
+    "source": "biospace",
+    "notified": false,
+    "notified_at": null
   }
 ]

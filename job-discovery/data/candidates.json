@@ -1,22 +1,42 @@
 [
   {
-    "title": "Data Scientist",
-    "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/data-scientist-in-north-chicago-il-jid-26047",
-    "location": "North Chicago, IL",
-    "department": "Corporate",
+    "title": "Principal Engineer, Drug Product, Global Engineering",
+    "company": "Moderna, Inc.",
+    "url": "https://www.biospace.com/job/3043366/principal-engineer-drug-product-global-engineering/",
+    "location": "Norwood, Massachusetts",
+    "department": "",
     "date_posted": null,
-    "source": "attrax:abbvie",
-    "description": "We are seeking an analytically driven and intellectually curious Data Scientist to join the Advance Solutions Team within the DELOS (Data, Exploration & Linked Outcomes Solutions) Research Group. This"
+    "source": "biospace",
+    "description": "The Role: The Principal Engineer, Drug Product, will lead the design development, fabrication, and validation of drug product manufacturing process..."
   },
   {
-    "title": "Principal Scientist, Inflammation Research",
-    "company": "Gilead",
-    "url": "https://gilead.wd1.myworkdayjobs.com/job/United-Kingdom---Oxford/Principal-Scientist--Inflammation-Research_R0051675",
-    "location": "United Kingdom - Oxford",
+    "title": "Manager, Quality Control – Stability and Sample Management",
+    "company": "Insmed Incorporated",
+    "url": "https://www.biospace.com/job/3043421/manager-quality-control-stability-and-sample-management/",
+    "location": "San Diego, CA",
     "department": "",
-    "date_posted": "Posted Today",
-    "source": "workday:gilead",
-    "description": "R0051675"
+    "date_posted": null,
+    "source": "biospace",
+    "description": "At Insmed, every moment and every patient counts — and so does every person who joins in As a global biopharmaceutical company dedicated to transfo..."
+  },
+  {
+    "title": "Process Development Principal Scientist",
+    "company": "Amgen",
+    "url": "https://www.biospace.com/job/3043409/process-development-principal-scientist/",
+    "location": "Thousand Oaks, California",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Join Amgens Mission of Serving Patients At Amgen, if you feel like youre part of something bigger, its because you are' Our shared missionto serve ..."
+  },
+  {
+    "title": "Principal Scientist - Clinical Pharmacology, Modeling & Simulation",
+    "company": "Amgen",
+    "url": "https://www.biospace.com/job/3043379/principal-scientist-clinical-pharmacology-modeling-and-simulation/",
+    "location": "South San Francisco, California",
+    "department": "",
+    "date_posted": null,
+    "source": "biospace",
+    "description": "Join Amgens Mission of Serving Patients At Amgen, if you feel like youre part of something bigger, its because you are' Our shared missionto serve ..."
   }
 ]
