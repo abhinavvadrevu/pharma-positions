@@ -1648,5 +1648,20 @@
     "source": "biospace",
     "notified": false,
     "notified_at": null
+  },
+  {
+    "id": "b541e59d-aa02-41c7-b2c6-b4ac97a2eea5",
+    "company": "Amgen",
+    "title": "Apr. 20, 2026Process Development ScientistUS - California - Thousand Oaks",
+    "url": "https://careers.amgen.com/en/job/thousand-oaks/process-development-scientist/87/94193650656",
+    "location": "US - California - Thousand Oaks",
+    "is_bay_area": false,
+    "department": "",
+    "description": "",
+    "date_posted": "Apr. 20, 2026",
+    "date_found": "2026-04-21T15:07:15.738350+00:00",
+    "source": "talentbrew:amgen",
+    "notified": false,
+    "notified_at": null
   }
 ]

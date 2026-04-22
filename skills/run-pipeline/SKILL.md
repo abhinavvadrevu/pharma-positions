@@ -10,7 +10,7 @@ description: "**[REQUIRED]** Use for ALL pharma job discovery tasks. Runs the CO
 ## Step 1: Discovery (Scrape Jobs)
 
 ```bash
-cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
+cd "/Users/avadrevu/workspace/personal/pharma-positions/job-discovery"
 .venv/bin/python -m src.main --output-dir data
 ```
 
@@ -21,7 +21,7 @@ Note the output file path (e.g., `data/jobs_TIMESTAMP.json`).
 Run this Python script to filter and prepare candidates:
 
 ```bash
-cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
+cd "/Users/avadrevu/workspace/personal/pharma-positions/job-discovery"
 .venv/bin/python -c "
 import json
 import sys
@@ -94,7 +94,7 @@ for reason, count in summary.items():
 First, run this script to get candidates that haven't been evaluated yet:
 
 ```bash
-cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
+cd "/Users/avadrevu/workspace/personal/pharma-positions/job-discovery"
 .venv/bin/python -c "
 import json
 from pathlib import Path
@@ -189,7 +189,7 @@ EDUCATION: PhD with ~2+ years industry experience (flexible)
 After evaluating EACH candidate, immediately run this script to save progress:
 
 ```bash
-cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
+cd "/Users/avadrevu/workspace/personal/pharma-positions/job-discovery"
 .venv/bin/python -c "
 import json
 from pathlib import Path
@@ -239,7 +239,7 @@ print(f'    Progress: {evaluated}/{total_remaining} evaluated, {total_matches} t
 After all candidates are evaluated, run this to confirm:
 
 ```bash
-cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
+cd "/Users/avadrevu/workspace/personal/pharma-positions/job-discovery"
 .venv/bin/python -c "
 import json
 from pathlib import Path
@@ -270,7 +270,7 @@ print(f'Total matches in jobs.json: {total_matches}')
 Get the list of jobs that were matched in this run (for notification):
 
 ```bash
-cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
+cd "/Users/avadrevu/workspace/personal/pharma-positions/job-discovery"
 .venv/bin/python -c "
 import json
 from pathlib import Path
@@ -306,7 +306,7 @@ Use the Bash tool with `secret_env` to inject the Resend API key securely:
 
 ```bash
 # Run with secret_env: {"RESEND_API_KEY": "resend_api_key"}
-cd "/Users/avadrevu/workspace/pharma positions/job-discovery"
+cd "/Users/avadrevu/workspace/personal/pharma-positions/job-discovery"
 .venv/bin/python -c "
 import json
 from pathlib import Path
