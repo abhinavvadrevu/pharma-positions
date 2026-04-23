@@ -1693,5 +1693,20 @@
     "source": "biospace",
     "notified": false,
     "notified_at": null
+  },
+  {
+    "id": "70279175-ca4a-47d8-9e44-eb709e723573",
+    "company": "Gilead",
+    "title": "Scientist, Process Development",
+    "url": "https://gilead.wd1.myworkdayjobs.com/job/Canada---Alberta---Edmonton/Scientist--Process-Development_R0049963-1",
+    "location": "Canada - Alberta - Edmonton",
+    "is_bay_area": false,
+    "department": "",
+    "description": "R0049963",
+    "date_posted": "Posted Today",
+    "date_found": "2026-04-23T01:21:43.070287+00:00",
+    "source": "workday:gilead",
+    "notified": false,
+    "notified_at": null
   }
 ]

@@ -1,72 +1,102 @@
 [
   {
-    "title": "Scientist, Analytical Drug Product Development and Technology (DPDT)",
-    "company": "Regeneron Pharmaceuticals, Inc.",
-    "url": "https://www.biospace.com/job/3043801/scientist-analytical-drug-product-development-and-technology-dpdt-/",
-    "location": "Tarrytown, New York",
-    "department": "",
-    "date_posted": null,
-    "source": "biospace",
-    "description": "We are seeking a highly motivated Scientist to support the laboratory based analytical method development and qualification within the Drug Product..."
-  },
-  {
-    "title": "Process Development Scientist",
-    "company": "Amgen",
-    "url": "https://www.biospace.com/job/3043898/process-development-scientist/",
-    "location": "Thousand Oaks, California",
-    "department": "",
-    "date_posted": null,
-    "source": "biospace",
-    "description": "Join Amgens Mission of Serving Patients At Amgen, if you feel like youre part of something bigger, its because you are' Our shared missionto serve ..."
-  },
-  {
-    "title": "Operations Support Lead - Material Prep/Formulation/Filling",
-    "company": "Eli Lilly and Company",
-    "url": "https://www.biospace.com/job/3043839/operations-support-lead-material-prep-formulation-filling/",
-    "location": "Durham, North Carolina",
-    "department": "",
-    "date_posted": null,
-    "source": "biospace",
-    "description": "At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indian..."
-  },
-  {
-    "title": "Quality Control Scientist (Microbiology)",
-    "company": "Regeneron Pharmaceuticals, Inc.",
-    "url": "https://www.biospace.com/job/3043808/quality-control-scientist-microbiology-/",
-    "location": "Rensselaer, New York",
-    "department": "",
-    "date_posted": null,
-    "source": "biospace",
-    "description": "Regeneron is looking for a Quality Control Scientist (Microbiology) to focus on microbiological test methods. This includes, but not limited to, En..."
-  },
-  {
-    "title": "Associate, Scientist (Temporary Position)",
+    "title": "Scientist, Data II",
     "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/associate-scientist-temporary-position-in-barceloneta-barceloneta-jid-27386",
-    "location": "Barceloneta, Barceloneta",
-    "department": "Operations",
+    "url": "https://careers.abbvie.com/en/job/scientist-data-ii-in-north-chicago-il-jid-27424",
+    "location": "North Chicago, IL",
+    "department": "Corporate",
     "date_posted": null,
     "source": "attrax:abbvie",
-    "description": "Purpose:Performs a variety of routine sample preparation and analysis procedures to support Manufacturing and Quality Operations. Follows validated or experimental analytical procedures with periodic"
+    "description": "We are seeking an experienced AI Data Scientist II to join our innovative FAiM Team at AbbVie Pharmaceuticals. This position is an opportunity to join a team and work at the intersection of machine le"
   },
   {
-    "title": "Principal Research Scientist II, Immunology Discovery Research",
+    "title": "Scientist II - Biocompatibility",
     "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/principal-research-scientist-ii-immunology-discovery-research-in-worcester-ma-jid-27387",
+    "url": "https://careers.abbvie.com/en/job/scientist-ii-biocompatibility-in-branchburg-nj-jid-27423",
+    "location": "Branchburg, NJ",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "The Scientist II - Biocompatibility is a SME which will provide highly skilled support for biocompatibility and non-clinical safety evaluations of medical devices, tissue products, and combination pro"
+  },
+  {
+    "title": "Scientist l - Peptide Synthesis",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/scientist-l-peptide-synthesis-in-madison-wi-jid-27406",
+    "location": "Madison, WI",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "Responsibilities:Operate, maintain, and troubleshoot peptide synthesizers and related equipment (centrifuges, rotovaps, and balances)Solid phase peptide synthesis utilizing both manual and automated m"
+  },
+  {
+    "title": "Senior Scientist I, Biologics Purification",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-i-biologics-purification-in-north-chicago-il-jid-23711",
+    "location": "North Chicago, IL",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "Join AbbVie’s Biologics Discovery Sciences group and make a tangible impact in advancing innovative biologic therapies. As a scientist specializing in Biologics Purification, you will play a pivotal r"
+  },
+  {
+    "title": "Senior Scientist I, Analytical & Purification Sciences",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-i-analytical-and-purification-sciences-in-north-chicago-il-jid-27399",
+    "location": "North Chicago, IL",
+    "department": "Research & Development",
+    "date_posted": null,
+    "source": "attrax:abbvie",
+    "description": "The Analytical and Purification Sciences (APS) group has an exciting opportunity for a Senior Scientist to join the Technology and Therapeutic Platforms organization within Discovery Research at AbbVi"
+  },
+  {
+    "title": "Principal ML Scientist II - Biotherapeutics and Genetic Medicine",
+    "company": "AbbVie",
+    "url": "https://careers.abbvie.com/en/job/principal-ml-scientist-ii-biotherapeutics-and-genetic-medicine-in-worcester-ma-jid-27421",
     "location": "Worcester, MA",
     "department": "Research & Development",
     "date_posted": null,
     "source": "attrax:abbvie",
-    "description": "Position Overview: AbbVie’s Immunology Discovery Research organization seeks an impactful scientific leader to manage pioneering research in Rheumatology. This role centers around strong people leader"
+    "description": "Position Overview: The Principal Machine Learning Scientist II will advance deep learning methods for biologics discovery at AbbVie.  This individual contributor role focuses on advancing sequence- an"
   },
   {
-    "title": "Scientist I, Automation - High Throughput Antibody Production",
+    "title": "Senior Scientist I, Cell and Molecular Biologist Oncology Discovery",
     "company": "AbbVie",
-    "url": "https://careers.abbvie.com/en/job/scientist-i-automation-high-throughput-antibody-production-in-worcester-ma-jid-27388",
-    "location": "Worcester, MA",
+    "url": "https://careers.abbvie.com/en/job/senior-scientist-i-cell-and-molecular-biologist-oncology-discovery-in-north-chicago-il-jid-26375",
+    "location": "North Chicago, IL",
     "department": "Research & Development",
     "date_posted": null,
     "source": "attrax:abbvie",
-    "description": "The Biotherapeutics and Genetic Medicine Department at AbbVie, Worcester, MA is seeking a highly motivated engineer to join a dynamic team supporting biologics drug discovery and biologics engineering"
+    "description": "AbbVie (NYSE:ABBV) is a global, research-based biopharmaceutical company that combines the focus and passion of a leading-edge biotech with the expertise and capabilities of a long-established pharmac"
+  },
+  {
+    "title": "Scientist, Process Development",
+    "company": "Gilead",
+    "url": "https://gilead.wd1.myworkdayjobs.com/job/Canada---Alberta---Edmonton/Scientist--Process-Development_R0049963-1",
+    "location": "Canada - Alberta - Edmonton",
+    "department": "",
+    "date_posted": "Posted Today",
+    "source": "workday:gilead",
+    "description": "R0049963"
+  },
+  {
+    "title": "Senior Scientist, Biologics Discovery, Discovery Biotherapeutics",
+    "company": "Bristol Myers Squibb",
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/Brisbane---CA---US/Senior-Scientist--Biologics-Discovery--Discovery-Biotherapeutics_R1601645",
+    "location": "Brisbane - CA - US",
+    "department": "",
+    "date_posted": "Posted Today",
+    "source": "workday:bristolmyerssquibb",
+    "description": "R1601645"
+  },
+  {
+    "title": "Scientist, CTTO Analytical Testing",
+    "company": "Bristol Myers Squibb",
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/job/Summit-West---NJ---US/Scientist--CTTO-Analytical-Testing_R1601511-1",
+    "location": "Summit West - NJ - US",
+    "department": "",
+    "date_posted": "Posted Today",
+    "source": "workday:bristolmyerssquibb",
+    "description": "R1601511"
   }
 ]

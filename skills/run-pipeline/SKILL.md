@@ -40,6 +40,9 @@ latest = discovery_files[0]
 print(f'Loading {latest.name}')
 with open(latest) as f:
     raw_jobs = json.load(f)
+# Discovery output is a dict: {"discovered_at": "...", "total_jobs": N, "jobs": [...]}
+if isinstance(raw_jobs, dict):
+    raw_jobs = raw_jobs['jobs']
 print(f'Found {len(raw_jobs)} raw jobs')
 
 # Import pipeline modules
@@ -340,6 +343,15 @@ else:
 ```
 
 This securely injects the stored secret without exposing it in the command or logs.
+
+**If the `secret_env` approach fails** (i.e. the key is passed as a literal string rather than the real value), use this fallback:
+
+```bash
+cd "/Users/avadrevu/workspace/personal/pharma-positions/job-discovery"
+RESEND_API_KEY=$(cat ~/.snowflake/cortex/secrets/resend_api_key.secret) .venv/bin/python -c "..."
+```
+
+The secret file is at `~/.snowflake/cortex/secrets/resend_api_key.secret`. This fallback was confirmed working in run ab0818f2 (April 22).
 
 ## Summary
 
