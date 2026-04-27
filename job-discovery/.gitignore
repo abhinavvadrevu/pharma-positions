@@ -12,3 +12,4 @@ env/
 .env
 .DS_Store
 *.log
+data/discovery_log.jsonl
